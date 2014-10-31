@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+.eleament{line-height:30px; font-family:"微软雅黑"; font-size:14px; color:#666;}
+.eleament span.addtime{color:#F00;}
+.eleament span.addtime font{color:#666; padding:0 2px;}
+.eleament .txt_input{width:80px; border-radius:3px; padding:11px 8px;}
+.messages{color:#888 !important; border:none !important;}
+.messages li{line-height:24px;}
+fieldset{border:1px solid #dedede; margin-top:15px;}
+fieldset legend{font-size:15px; font-family:"微软雅黑"; color:#666;}
+</style>
+
+<body>
+<div id="fwin_taskdelay" class="fwinmask" style="position: fixed; z-index: 1401; left: 452px; top: 22px;"><link href="http://static11.epweike.net/css/showDialog.css" type="text/css" rel="stylesheet"><table cellspacing="0" cellpadding="0" class="fwin"><tbody><tr><td class="tt_l"></td><td ondblclick="hideWindow('taskdelay')" class="tt_c"></td><td class="tt_r"></td></tr><tr><td ondblclick="hideWindow('taskdelay')" class="m_l"></td><td id="fwin_content_taskdelay" class="m_c" fwin="taskdelay"><h3 class="flb" id="fctrl_taskdelay" style="cursor: move;"><em>任务延期</em><span><a title="关闭" onclick="hideWindow('taskdelay')" class="flbc" href="javascript:;">×</a></span></h3><div id="fwin_content_cont_taskdelay" class="fwin_content_cont" fwin="taskdelay"><div class="winbody">
+<div class="commonform pad20">
+<div class="messages m_warn"> 
+当前第1次延期,本次延期最小金额为￥100。还可延期2次。 
+</div>
+<div class="eleament clearfix"> <strong>温馨提示：</strong>任务总额为<font class="red">￥388158</font>&nbsp;&nbsp;剩余<span class="addtime" id="TimeCountdown" time="2014/10/02 08:54:42"></span>结束</div>
+
+<!--from表单 start-->
+<form action="" name="frm_delay" id="frm_delay" method="post" fwin="taskdelay">
+<div class="eleament clearfix">
+<label class="f_l">帐户余额： </label>
+<div class="f_l font16">￥388158</div>
+<div class="clear"></div>
+</div>
+<div class="eleament clearfix">
+<label class="f_l">延期加价： </label>
+<div class="f_l"> <label>
+<input type="radio" value="2" id="not_delay" name="taskdelay" fwin="taskdelay">
+<b class="c333">我要加价</b></label>
+<label><br />
+<input type="radio" checked="" value="1" id="delay" name="taskdelay" fwin="taskdelay">
+<b class="c333">我要延期并加价</b></label>
+</div>
+</div>
+<div id="is_cash" class="eleament clearfix" fwin="taskdelay">
+<label class="f_l">增加赏金：</label>
+<div class="f_l">
+<input type="text" onkeyup="clearstr(this)" id="delay_cash" class="txt_input" name="delay_cash" fwin="taskdelay">
+最少加价￥200</div>
+</div>
+<div id="is_delay" class="eleament clearfix" fwin="taskdelay" style="display: block;">
+<label class="f_l">延长天数：</label>
+<div class="f_l">
+<input type="text" onkeyup="clearstr(this)" id="delay_day" class="txt_input" name="delay_day" fwin="taskdelay">
+最多延期7天 </div>
+<div class="clear"></div>
+</div>
+<div class="eleament clearfix">
+<div class="grid_10 omega">
+</div>
+
+<fieldset>
+ <legend>加价延期规则</legend>
+ <div class="messages">
+<ul>
+<li>1.单次延期最小金额为<font color="red">￥50</font>,具体金额限制会随任务金额变动</li>
+<li>2.单次延期天数<font color="red">不得超过7</font>天</li>
+<li>3.第1次延期不得少于任务总金额的20.00%</li>
+<li>4.第2次延期不得少于任务总金额的20.00%</li>
+<li>5.第3次延期不得少于任务总金额的20.00%</li>
+</ul>
+</div>
+</fieldset>
+</div>
+<div class="eleament t_r clearfix">
+<button onclick="Delay()" value="延期并加价" class="button red" type="button">提交</button>
+<button onclick="hideWindow('taskdelay')" value="取消" class="button" type="button">取消</button>
+</div>
+</form>
+<!--from表单 end--> 
+</div>
+
+</div>
+</div></td><td ondblclick="hideWindow('taskdelay')" class="m_r"></td></tr><tr><td class="b_l"></td><td ondblclick="hideWindow('taskdelay')" class="b_c"></td><td class="b_r"></td></tr></tbody></table></div>
+
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/Plugin/jquery.jcountdown.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	/*$("#TimeCountdown").countdown({
+		thisTime:'2014/10/02 08:54:42'
+		});*/
+
+$("#TimeCountdown").countdown({
+	date:"2014/10/02 08:54:42"
+	});
+});
+</script>
+</body>
+</html>

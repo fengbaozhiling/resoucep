@@ -1,0 +1,366 @@
+$(function(){
+	if(typeof(INDEX)!="undefined"){
+		if($('.mywork').length > 0){
+			INDEX = 'task_list';
+		}
+		var ajax_user_url = "/index.php?do=ajax&view=user_status&index="+INDEX;
+		
+		switch(INDEX){
+			case 'shop':
+				if(typeof(art_id)=="undefined") art_id=null;
+				$.post(ajax_user_url,{sid:sid,ac_url:ac_url,http_host:http_host,my_request_uri:request_uri,art_id:art_id},function(json){
+					if(json.status){
+						commom_ajax_replace(json.data.formhash,json.data.top_u_pic,json.data.messagecount,json.data.nav_pull26,json.data.index_r_bar);
+						if(json.data.show_auth_code_login){
+							$("#div_auth_code").show();
+							$("#li_auth_code").show();
+						}
+						if(art_id){
+							if($("#liuyanbox").length>0) $("#liuyanbox").html(json.data.art_comment);
+						}else{
+							if($("#liuyanbox").length>0) $("#liuyanbox").html(json.data.comment);
+						}
+						if(json.data.shop_myshop&&$("#ajax_shop_myshop").length>0) $("#ajax_shop_myshop").append(json.data.shop_myshop);
+						//联系方式
+						if($("#pnub").length>0) $("#pnub").html(json.data.pnub);
+						if($("#left_phone").length>0) $("#left_phone").html(json.data.left_phone);
+						if($("#contact_phone").length>0) $("#contact_phone").html(json.data.contact_phone);
+						if($("#left_mobile").length>0) $("#left_mobile").html(json.data.left_mobile);
+						if($("#contact_mobile").length>0) $("#contact_mobile").html(json.data.contact_mobile);
+						if($("#left_email").length>0) $("#left_email").html(json.data.left_email);
+						if($("#contact_email").length>0) $("#contact_email").html(json.data.contact_email);
+						if($("#left_qq").length>0) $("#left_qq").html(json.data.left_qq);
+						if($("#contact_qq").length>0) $("#contact_qq").html(json.data.contact_qq);
+						if($("#contact_truename").length>0) $("#contact_truename").html(json.data.contact_truename);
+					}
+				},"json");
+				break;
+			case 'task_list':
+				var task_ids='';
+				var delay_ids = '';
+				$(".mywork").each(function(){
+					task_ids+=","+$(this).attr("id");
+				});
+				$(".icodelay").each(function(){
+					delay_ids += ","+$(this).attr('delay_id');
+				});
+				$.post(ajax_user_url+'&task_ids='+task_ids,{delay_ids:delay_ids},function(json){
+					if(json.status){
+						commom_ajax_replace(json.data.formhash,json.data.top_u_pic,json.data.messagecount,json.data.nav_pull26,json.data.index_r_bar);
+						if(json.data.show_auth_code_login){
+							$("#div_auth_code").show();
+							$("#li_auth_code").show();
+						}
+						$(".mywork").each(function(){
+							var task_id = $(this).attr("id");
+							if(json.data[task_id]){
+								$("#"+task_id).html(json.data[task_id]['txt']);
+								$("#"+task_id).attr("class",json.data[task_id]['classname']);
+							}
+						});
+						$(".icodelay").each(function(){
+							var delay_id = $(this).attr('delay_id');
+							if(json.data[delay_id]){
+								$("#delay_"+delay_id).html(json.data[delay_id]['delay_txt']);
+								$("#delay_"+delay_id).attr("class",json.data[delay_id]['delay_classname']);
+							}
+						});
+						//快速发布手机处理
+						if(json.data['rf_mobile']){
+							$(".rm_nm").remove();
+							$(".upmn").after('<li><input size="30" type="text" name="release_mobile" id="mobile_accout" value="'+json.data['rf_mobile']+'" maxlength="11" disabled class="disa"/></li>');
+						}
+					}
+				},'json');
+				break;
+			default:
+				if(INDEX == 'prom' && typeof (EPWEIKE.Prom.view) != 'undefined'){
+					ajax_user_url += "&prom="+EPWEIKE.Prom.view;
+				}
+				if(INDEX == 'task' && typeof (task_id) != 'undefined'){
+					ajax_user_url += "&task_id="+task_id;
+				}
+				if(INDEX == 'task' && typeof (work_uid) != 'undefined'){
+					ajax_user_url += "&work_uid="+work_uid;
+				}
+				$.post(ajax_user_url,function(json){
+					if(json.status){
+						commom_ajax_replace(json.data.formhash,json.data.top_u_pic,json.data.messagecount,json.data.nav_pull26,json.data.index_r_bar);
+						if(json.data.show_auth_code_login){
+							$("#div_auth_code").show();
+							$("#li_auth_code").show();
+						}
+						switch(INDEX){
+							case 'prom':
+								if(json.data.prom_index&&$("#ajax_user_left_prom").length>0)  $("#ajax_user_left_prom").html(json.data.prom_index);
+								break;
+							case 'vip':
+								if(json.data.vip_index&&$("#ajax_user_left_vip").length>0) $("#ajax_user_left_vip").html(json.data.vip_index);
+								break;
+							case 'gonglue':
+								if($("#liuyanbox").length>0) $("#liuyanbox").html(json.data.comment);
+								break;
+							case 'task':
+								/*if($(".pinluncontes .answer-form").length>0){
+									$(".pinluncontes .answer-form").each(function(){
+										$(this).html(json.data.gj_comment);
+									})
+								}
+								if($("#liuyanbox").length>0) $("#liuyanbox").html(json.data.comment);*/
+								break;
+							case 'index':
+								$(".navouterbox").before(json.data.index_pop);
+								$("#VIPtips").animate( { bottom: "5px"}, { queue: true, duration: 1000 } );
+								$("#closetips").click(function(){$("#VIPtips").hide();})
+								break;
+							case 'user':
+								if($("#witkey_msg").length>0) $("#witkey_msg").html(json.data.witkey_msg);
+								break;
+						}
+						if(INDEX == 'task'){
+							if(json.data.login){
+								if($("#contact_phone").length>0) $("#contact_phone").html(json.data.contact_phone);
+								if($("#contact_mobile").length>0) $("#contact_mobile").html(json.data.contact_mobile);
+								if($("#contact_email").length>0) $("#contact_email").html(json.data.contact_email);
+								if($("#contact_qq").length>0) $("#contact_qq").html(json.data.contact_qq);
+							}
+						}
+						//快速发布手机处理
+						if(json.data['rf_mobile']){
+							$(".rm_nm").remove();
+							$(".upmn").after('<li><input size="30" type="text" name="release_mobile" id="mobile_accout" value="'+json.data['rf_mobile']+'" maxlength="11" disabled class="disa"/></li>');
+						}
+					}
+				},"json");
+				break;
+		}
+	}
+	
+	In('tipsy',function(){
+	  $('input').tipsy({
+	        gravity: $.fn.tipsy.autoWE,
+	        trigger: 'focus',
+			gravity: 'w',
+			opacity: 1
+	    });	
+	});
+	
+	$('.agreement i').click(
+	   function(){
+		  if($(this).attr('class')=='checkbox'){
+		    $(this).removeClass('checkbox');
+		  }else{
+			$(this).addClass('checkbox'); 
+		  }
+	    }
+	);
+	
+	$('.login i').click(
+	   function(){
+		  if($(this).attr('class')=='checkbox'){
+		    $(this).removeClass('checkbox');
+		  }else{
+			$(this).addClass('checkbox'); 
+		  }
+	    }
+	);
+
+	account_show_code();
+	account_show_code("_rt");
+});
+
+function account_show_code(suf){
+	suf = suf ? suf : "";
+	$("#txt_account1"+suf).blur(function(){
+		var txt_acc = $("#txt_account1"+suf).val();
+		$.post("/index.php?do=ajax&view=user_status&index="+INDEX,{txt_account:txt_acc},function(json){
+			if(json.data.show_auth_code_login){
+				$("#li_auth_code").show();
+				$("#div_auth_code").show();
+			}else{
+				$("#li_auth_code").hide();
+				$("#div_auth_code").hide();
+			}
+		},"json");	
+	});
+}
+
+/**
+ * 登录
+ * @param is_page 是否是登录页，是为1，不是为2
+ * @param frmSuf 登录表单id后缀
+ * @returns {Boolean}
+ */
+function user_login(is_page,frmSuf){
+	frmSuf = frmSuf ? frmSuf : '';
+	is_page = is_page ? is_page : 1;	
+	var txt_account = $("#txt_account1"+frmSuf).val();
+	var pwd_password = hex_md5($("#pwd_password"+frmSuf).val());
+	var hdn_refer = $("#hdn_refer"+frmSuf).val();
+	alert (hdn_refer);
+	var formhash = $("#formhash"+frmSuf).val();
+	var autologin = $(":checkbox[name='autologin']").is(':checked');
+	var c = checkForm(document.getElementById("login_frm"+frmSuf));
+	var login_code = $("#txt_login_code"+frmSuf).val();
+	var code_pre = $("#code_pre"+frmSuf).val();
+	if (!c) {
+		return false;
+	}
+	/*if ((txt_account=="" || txt_account=="用户名 / 邮箱 / 手机") && (pwd_password=="" || pwd_password == '密码长度应为6-20位')) {
+		if(is_page == 1){
+			$("#span_msg_tip"+frmSuf).attr("class", "valid_error");
+			$("#span_msg_tip"+frmSuf).html('<span>请输入您的账号和密码</span>');
+		}else{
+			showDialog('请输入您的账号和密码', 'alert', '操作提示');
+		}
+		return false;
+	}else if (txt_account==""){
+		if(is_page == 1){
+			$("#span_msg_tip"+frmSuf).attr("class", "valid_error");
+			$("#span_msg_tip"+frmSuf).html('<span>请输入您账号</span>');
+		}else{
+			showDialog('请输入您账号', 'alert', '操作提示');
+		}
+		return false;
+	}else if (pwd_password==""){
+		if(is_page == 1){
+			$("#span_msg_pwd_tip"+frmSuf).attr("class", "valid_error");
+			$("#span_msg_pwd_tip"+frmSuf).html('<span>请输入您的密码</span>');
+		}else{
+			showDialog('请输入您的密码', 'alert', '操作提示');
+		}
+		return false;
+<<<<<<< .mine
+	}*/
+=======
+	}else if ($("#txt_login_code"+frmSuf).length > 0 && login_code == "" && !$("#txt_login_code"+frmSuf).is(":hidden")){
+		if(is_page == 1){
+			$("#span_msg_pwd_tip"+frmSuf).attr("class", "valid_error");
+			$("#span_msg_pwd_tip"+frmSuf).html('<span>请输入验证码</span>');
+		}else{
+			showDialog('请输入验证码', 'alert', '操作提示');
+		}
+		return false;
+	}
+>>>>>>> .r2111
+	$("#loginwait"+frmSuf).show();
+	$(".primary"+frmSuf+".submit"+frmSuf).html("登录中...");
+	var i=checkForm(document.getElementById("login_frm"+frmSuf));
+	if (!i) {
+		return false;
+	}
+	if (checkForm(document.getElementById("login_frm"+frmSuf), false)) {
+		$.post("/index.php?do=login", {
+			formhash: formhash,
+			txt_account: txt_account,
+			pwd_password: pwd_password,
+			login_type: 3, 
+			ckb_cookie:autologin==true?1:0,
+			hdn_refer: hdn_refer,
+			txt_code:login_code ? login_code : "",
+			pre:code_pre ? code_pre : ""
+		}, function(json){
+		   $("#loginwait"+frmSuf).show();
+		   $(".primary"+frmSuf+".submit"+frmSuf).html("登录中...");
+			if (json.status == 1) {
+				$("#span_msg_tip"+frmSuf).attr("class", "");
+				$("#span_msg_tip"+frmSuf).html("");
+				$("#span_msg_pwd_tip"+frmSuf).attr("class", "");
+				$("#span_msg_pwd_tip"+frmSuf).html("");
+				if(INDEX == 'release'){
+					username = getcookie('username');
+					var ajax_user_url_s = SITEURL + "/index.php?do=ajax&view=user_status&index=prom";
+					$.post(ajax_user_url_s,function(json){
+						if(json.status){
+							commom_ajax_replace(json.data.formhash,json.data.top_u_pic,json.data.messagecount,json.data.nav_pull26,json.data.index_r_bar);
+						}
+					},'json');
+					if ( username ) {
+						load_header_top();
+						load_header_right();
+					}
+				}else{
+					if (json.data.synhtml){
+						var cookie = "cookie_login_syn=login_syn";
+						  document.cookie = cookie;	
+					} 
+					var str=document.domain;
+					var words= new Array(); //定义一数组
+					words = str.split(".");
+					var domain="."+words[1]+"."+words[2];
+					 var multi_domain_cookie = "cookie_login_multi_domain=login_domain; domain="+domain;
+					 document.cookie = multi_domain_cookie;
+					window.location.href = json.data.syn;	
+				}
+			}
+			else {
+				$("#loginwait"+frmSuf).hide();
+				$(".primary"+frmSuf+".submit"+frmSuf).html("登录");
+				if(is_page == 1){
+					$("#span_msg_tip"+frmSuf).attr("class", "valid_error");
+					$("#span_msg_tip"+frmSuf).html('<span>' + json.msg + '</span>');
+				}else{
+					showDialog(json.msg, 'alert', '操作提示');
+				}
+				if(json.data.uname){
+					$("#li_auth_code").show();
+					$("#div_auth_code").show();
+				}else{
+					$.post("/index.php?do=ajax&view=user_status&index="+INDEX,function(json){
+						if(json.data.show_auth_code_login){
+							$("#li_auth_code").show();
+							$("#div_auth_code").show();
+						}
+					},"json");	
+				}			
+			}
+		}, 'json')
+	}else{
+		$("#loginwait"+frmSuf).hide();
+		$(".primary"+frmSuf+".submit"+frmSuf).html("登录");
+	}
+	return false;
+}
+
+/**
+ * 注册
+ * @param msg
+ * @returns {Boolean}
+ */
+function user_register(msg){
+	$("#reg_btn").attr("disabled",true);
+	$("#reg_btn").text("请您耐心等待");
+	if(INDEX!='yun'){
+		$("#reg_btn").removeClass("submit");
+	}else{
+		$("#reg_btn").addClass("grey");
+	}
+	var i = checkForm(document.getElementById("register_frm"));
+    if (i) {
+		 document.getElementById('register_frm').submit();
+     }else{
+    	 $("#reg_btn").attr("disabled",false);
+    	 $("#reg_btn").text(msg);
+    	 if(INDEX!='yun'){
+    		 $("#reg_btn").addClass("submit");
+    	 }else{
+    		 $("#reg_btn").removeClass("grey");
+    	 }
+  		 return false;
+	 }
+}
+
+/**
+ * 用户登录信息替换
+ * */
+function commom_ajax_replace(formhash,top_u_pic,messagecount,nav_pull26,index_r_bar){
+	if($("#formhash").length>0) $("#formhash").val(formhash);
+	if($("#top_u_pic").length>0) $("#top_u_pic").html(top_u_pic);
+	if($("#messagecount_1").length>0) $("#messagecount_1").html(messagecount);
+	if($("#messagecount_2").length>0) $("#messagecount_2").html(messagecount);
+	if(nav_pull26){
+		$("#nav_pull2").remove();
+		$("#add_nav_aj").before(nav_pull26);
+	}
+	if(typeof(index_r_bar)!="undefined"&&$("#index_r_bar").length>0) $("#index_r_bar").html(index_r_bar);
+}

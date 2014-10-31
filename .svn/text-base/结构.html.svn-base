@@ -1,0 +1,704 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<title>首页</title>
+</head>
+
+<body>
+<div class="top">
+	<div class="container clearfix">
+		<div class="f_l">
+			<a class="icoa" href=""><span class="ico ico_pc"></span>电脑版</a><a class="icoa" href=""><span class="ico ico_phone"></span>手机版</a><a class="icoa" href=""><span class="ico ico_pad"></span>PAD版</a>|
+			<span class="subnav_span">
+				<a class="c666 subspan_bar" href="javascript:void(0);" rel="nofollow">全国站<span>▼</span></a>
+				<div class="subnav_option hidden">
+					<div class="talentareabox clearfix">
+						<div class="taltc">省份筛选</div>
+						<div class="taletprovince clearfix"> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-110000.html"> 北京</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-120000.html"> 天津</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-130000.html"> 河北</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-140000.html"> 山西</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-150000.html"> 内蒙古</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-210000.html"> 辽宁</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-220000.html"> 吉林</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-230000.html"> 黑龙江</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-310000.html"> 上海</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-320000.html"> 江苏</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-330000.html"> 浙江</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-340000.html"> 安徽</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-350000.html"> 福建</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-360000.html"> 江西</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-370000.html"> 山东</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-410000.html"> 河南</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-420000.html"> 湖北</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-430000.html"> 湖南</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-440000.html"> 广东</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-450000.html"> 广西</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-460000.html"> 海南</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-500000.html"> 重庆</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-510000.html"> 四川</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-520000.html"> 贵州</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-530000.html"> 云南</a> <a target="_blank" class="tc_fontcolor" href="http://www.epweike.com/zone-area_id-610000.html"> 陕西</a> </div>
+						<div class="taltc">城市筛选</div>
+						<div class="taletprovince clearfix"> <a target="_blank" class="tc_fontcolor" href="http://shijiazhuang.epweike.com"> 石家庄</a> <a target="_blank" class="tc_fontcolor" href="http://tangshan.epweike.com"> 唐山</a> <a target="_blank" class="tc_fontcolor" href="http://qinhuangdao.epweike.com"> 秦皇岛</a> <a target="_blank" class="tc_fontcolor" href="http://xingtai.epweike.com"> 邢台</a> <a target="_blank" class="tc_fontcolor" href="http://baoding.epweike.com"> 保定</a> <a target="_blank" class="tc_fontcolor" href="http://cangzhou.epweike.com"> 沧州</a> <a target="_blank" class="tc_fontcolor" href="http://taiyuan.epweike.com"> 太原</a> <a target="_blank" class="tc_fontcolor" href="http://datong.epweike.com"> 大同</a> <a target="_blank" class="tc_fontcolor" href="http://yangquan.epweike.com"> 阳泉</a> <a target="_blank" class="tc_fontcolor" href="http://changzhi.epweike.com"> 长治</a> <a target="_blank" class="tc_fontcolor" href="http://huhehaote.epweike.com"> 呼和浩特</a> <a target="_blank" class="tc_fontcolor" href="http://baotou.epweike.com"> 包头</a> <a target="_blank" class="tc_fontcolor" href="http://shenyang.epweike.com"> 沈阳</a> <a target="_blank" class="tc_fontcolor" href="http://dalian.epweike.com"> 大连</a> <a target="_blank" class="tc_fontcolor" href="http://anshan.epweike.com"> 鞍山</a> <a target="_blank" class="tc_fontcolor" href="http://changchun.epweike.com"> 长春</a> <a target="_blank" class="tc_fontcolor" href="http://haerbin.epweike.com"> 哈尔滨</a> <a target="_blank" class="tc_fontcolor" href="http://nanjing.epweike.com"> 南京</a> <a target="_blank" class="tc_fontcolor" href="http://wuxi.epweike.com"> 无锡</a> <a target="_blank" class="tc_fontcolor" href="http://suzhou.epweike.com"> 苏州</a> <a target="_blank" class="tc_fontcolor" href="http://nantong.epweike.com"> 南通</a> <a target="_blank" class="tc_fontcolor" href="http://yangzhou.epweike.com"> 扬州</a> <a target="_blank" class="tc_fontcolor" href="http://hangzhou.epweike.com"> 杭州</a> <a target="_blank" class="tc_fontcolor" href="http://ningbo.epweike.com"> 宁波</a> <a target="_blank" class="tc_fontcolor" href="http://wenzhou.epweike.com"> 温州</a> <a target="_blank" class="tc_fontcolor" href="http://jiaxing.epweike.com"> 嘉兴</a> <a target="_blank" class="tc_fontcolor" href="http://huzhou.epweike.com"> 湖州</a> <a target="_blank" class="tc_fontcolor" href="http://shaoxing.epweike.com"> 绍兴</a> <a target="_blank" class="tc_fontcolor" href="http://jinhua.epweike.com"> 金华</a> <a target="_blank" class="tc_fontcolor" href="http://quzhou.epweike.com"> 衢州</a> <a target="_blank" class="tc_fontcolor" href="http://zhoushan.epweike.com"> 舟山</a> <a target="_blank" class="tc_fontcolor" href="http://taizhou.epweike.com"> 台州</a> <a target="_blank" class="tc_fontcolor" href="http://lishui.epweike.com"> 丽水</a> <a target="_blank" class="tc_fontcolor" href="http://hefei.epweike.com"> 合肥</a> <a target="_blank" class="tc_fontcolor" href="http://fuzhou.epweike.com"> 福州</a> <a target="_blank" class="tc_fontcolor" href="http://xiamen.epweike.com"> 厦门</a> <a target="_blank" class="tc_fontcolor" href="http://putian.epweike.com"> 莆田</a> <a target="_blank" class="tc_fontcolor" href="http://sanming.epweike.com"> 三明</a> <a target="_blank" class="tc_fontcolor" href="http://quanzhou.epweike.com"> 泉州</a> <a target="_blank" class="tc_fontcolor" href="http://zhangzhou.epweike.com"> 漳州</a> <a target="_blank" class="tc_fontcolor" href="http://nanping.epweike.com"> 南平</a> <a target="_blank" class="tc_fontcolor" href="http://longyan.epweike.com"> 龙岩</a> <a target="_blank" class="tc_fontcolor" href="http://ningde.epweike.com"> 宁德</a> <a target="_blank" class="tc_fontcolor" href="http://nanchang.epweike.com"> 南昌</a> <a target="_blank" class="tc_fontcolor" href="http://jinan.epweike.com"> 济南</a> <a target="_blank" class="tc_fontcolor" href="http://qingdao.epweike.com"> 青岛</a> <a target="_blank" class="tc_fontcolor" href="http://zhengzhou.epweike.com"> 郑州</a> <a target="_blank" class="tc_fontcolor" href="http://wuhan.epweike.com"> 武汉</a> <a target="_blank" class="tc_fontcolor" href="http://changsha.epweike.com"> 长沙</a> <a target="_blank" class="tc_fontcolor" href="http://zhuzhou.epweike.com"> 株洲</a> <a target="_blank" class="tc_fontcolor" href="http://guangzhou.epweike.com"> 广州</a> <a target="_blank" class="tc_fontcolor" href="http://shenzhen.epweike.com"> 深圳</a> <a target="_blank" class="tc_fontcolor" href="http://zhuhai.epweike.com"> 珠海</a> <a target="_blank" class="tc_fontcolor" href="http://foshan.epweike.com"> 佛山</a> <a target="_blank" class="tc_fontcolor" href="http://dongguan.epweike.com"> 东莞</a> <a target="_blank" class="tc_fontcolor" href="http://zhongshan.epweike.com"> 中山</a> <a target="_blank" class="tc_fontcolor" href="http://guilin.epweike.com"> 桂林</a> <a target="_blank" class="tc_fontcolor" href="http://haikou.epweike.com"> 海口</a> <a target="_blank" class="tc_fontcolor" href="http://chengdu.epweike.com"> 成都</a> <a target="_blank" class="tc_fontcolor" href="http://guiyang.epweike.com"> 贵阳</a> <a target="_blank" class="tc_fontcolor" href="http://kunming.epweike.com"> 昆明</a> <a target="_blank" class="tc_fontcolor" href="http://xian.epweike.com"> 西安</a> </div>
+					</div>
+				</div>
+			</span>
+		</div>
+		<div class="f_r">
+			服务热线：4006-999-467&nbsp;|&nbsp;<a href="">一品首页</a>&nbsp;|
+			<span class="subnav_span">
+				<a class="c666 subspan_bar" href="javascript:void(0);" rel="nofollow">我的一品威客<span>▼</span></a>
+				<div class="subnav_option hidden">
+					<ul class="subnavlist">
+						<li><a target="_blank" href="http://www.epweike.com/user-view-employer-op-task-opp-xsrw.html">&gt;&nbsp;&nbsp;我发布的任务</a></li>
+						<li><a target="_blank" href="http://www.epweike.com/user-view-witkey-op-task-opp-xsrw.html">&gt;&nbsp;&nbsp;我参加的任务</a></li>
+						<li><a target="_blank" href="http://www.epweike.com/user-view-message.html">&gt;&nbsp;&nbsp;我的站内信<font class="cc00 fontb"> [9]</font></a></li>
+						<li><a target="_blank" href="http://www.epweike.com/user-view-witkey-op-collect.html">&gt;&nbsp;&nbsp;收藏夹</a></li>
+					</ul>
+				</div>
+			</span>
+			|&nbsp;<a href="">社区</a>&nbsp;|&nbsp;<a href="">推广员</a>&nbsp;|&nbsp;<a href="">帮助</a>&nbsp;|
+			<span class="subnav_span">
+				<a class="c666 subspan_bar" href="javascript:void(0);" rel="nofollow">网站导航<span>▼</span></a>
+				<div class="subnav_option hidden">
+					<h2 class="c06c">雇主服务</h2>
+					<ul class="release_task clearfix">
+						<li><a href="http://www.epweike.com/release.html">发布任务</a></li>
+						<li><a href="http://www.epweike.com/talent/">找人才</a></li>
+						<li><a rel="nofollow" href="http://www.epweike.com/user-view-finance-op-recharge.html">我要充值</a></li>
+						<li><a href="http://www.epweike.com/help/callfuwu.html">客服中心</a></li>
+						<li><a href="http://www.epweike.com/user-view-employer-op-credit-opp-grow.html">信誉等级</a></li>
+						<li><a href="http://www.epweike.com/user-view-employer-op-invoice-opp-apply.html">发票管理</a></li>
+					</ul>
+					<h2 class="c06c">威客服务</h2>
+					<ul class="release_task clearfix">
+						<li><a href="http://www.epweike.com/task/">任务大厅</a></li>
+						<li><a rel="nofollow" href="http://www.epweike.com/user-view-space.html">商铺管理</a></li>
+						<li><a rel="nofollow" href="http://www.epweike.com/user-view-finance-op-withdraw.html">我要提现</a></li>
+						<li><a href="http://www.epweike.com/vip/">VIP商铺</a></li>
+						<li><a href="http://www.epweike.com/redirect.php?goto=http://sucai.epweike.com/">一品素材</a></li>
+						<li><a href="http://www.epweike.com/user-view-witkey-op-credit-opp-grow.html">能力等级</a></li>
+						<li><a href="http://www.epweike.com/integrity.html">诚信保障</a></li>
+						<li><a href="http://www.epweike.com/user-view-witkey-op-toolbox.html">工具箱</a></li>
+					</ul>
+					<h2 class="c06c">特色服务</h2>
+					<ul class="release_task clearfix">
+						<li><a rel="nofollow" href="http://www.epweike.com/review.html">一句话点评</a></li>
+						<li><a href="http://www.epweike.com/zt/">精彩专题</a></li>
+						<li><a href="http://www.epweike.com/zt/qtzt/ppfzjh-01/">创意包</a></li>
+						<li><a href="http://shop.epweike.com/">vip之家</a></li>
+						<li><a href="http://www.epweike.com/gonglue/">攻略</a></li>
+						<!--<li><a href="http://www.epweike.com/brand-view-taiwan.html">台湾馆</a></li>-->
+						<li><a href="http://www.epweike.com/map.html" class="cea5">网站地图</a></li>
+						<li><a href="http://www.epweike.com/match/">创意大赛</a></li>
+						<li><a href="http://www.epweike.com/redirect.php?goto=http://www.kubeijie.com/">酷贝街</a></li>
+						<li><a href="http://www.epweike.com/zt/APPS/android/">APP</a></li>
+						<li><a href="http://www.epweike.com/prom/">推广员</a></li>
+						<li><a href="http://s.epweike.com">一品社区</a></li>
+						<li><a href="http://www.epweike.com/brand_concur.html">品牌合作</a></li>
+					</ul>
+				</div>
+			</span>
+			|&nbsp;<a href="">繁体版</a>
+		</div>
+	</div>
+	<span class="top_bg"></span>
+</div>
+<div class="header">
+	<div class="container clearfix">
+		<div class="f_l"><a href=""><img src="images/common/logo.png"></a><img class="ml_10" src="images/common/kouhao.png"></div>
+		<div class="pt_10 f_r">
+			<div class="search_bigbox"> 
+				<!--主搜索 start-->
+				<div class="clearfix">
+					<div class="search clearfix"> 
+						<!--搜索框和选项 start-->
+						<form class="clearfix" id="frm_topsearch" method="post" action="http://www.epweike.com/index.php">
+							<input type="hidden" value="task_list" id="topsearch_type" name="topsearch_type" original-title="">
+							<div class="search_box"> <span class="icon magnifier"></span>
+								<input type="text" lang="zh-CN" x-webkit-grammar="bUIltin:search" x-webkit-speech="" onfocus="if(this.value=='输入关键词搜索'){this.value=''};" autocomplete="off" onblur="if(this.value==''){this.value='输入关键词搜索'};" value="输入关键词搜索" class="search_input" id="search_key" name="k" original-title="">
+							</div>
+						</form>
+						<!--搜索框和选项 end--><!--搜索提交 start-->
+						<div class="f_l mr_5">
+							<button type="button" id="topsearch_btn" class="search_btn"> <span class="ico ico_serch"></span> </button>
+						</div>
+						<!--搜索提交 end--> 
+					</div>
+					<div class="serchdream">
+						<div class="serccatgory">
+							<div class="sercaxy" id="search_task">在<strong>任务列表：</strong>找<span class="dercatext"></span></div>
+							<div class="sercaxy" id="search_user">在<strong>人才列表：</strong>找<span class="dercatext"></span></div>
+						</div>
+					</div>
+				</div>
+				<!--主搜索 end--> 
+			</div>
+			<div class="enterbox f_l">
+				<a href="">登录</a>|<a href="">免费注册</a>|<a href="">开通商铺</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="nav">
+	<div class="container">
+		<div class="sidbar  f_l"><!--sidbarhiden用来隐藏展开的导航，例如clasidbar sidbarhiden f_l"-->
+			<div class="s_tl clearfix t_r">
+				<strong class="f_l">所有分类</strong>
+				<span class="ico ico_arrtop"></span>
+			</div>
+			<div class="sidbar_main">
+				<ul class="clearfix">
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供设计服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span><span><a href="">应用设计</a></span><span><a href="">照片处理</a></span><span><a href="">书籍装帧</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix f_l">
+								<div class="pl_20 mb_10"><strong>设计所有分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/dongman/">动漫设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/dongman/cartoon/">动漫办公用品设计</a><a target="_self" href="http://www.epweike.net/dongman/product/">动漫日用品设计</a><a target="_self" href="http://www.epweike.net/dongman/personal/">个人表情设计</a><a target="_self" href="http://www.epweike.net/dongman/katong/">卡通形象设计</a><a target="_self" href="http://www.epweike.net/dongman/animation/">视频动画制作</a><a target="_self" href="http://www.epweike.net/dongman/sige/">四格漫画设计</a><a target="_self" href="http://www.epweike.net/dongman/manhua/">漫画设计</a><a target="_self" href="http://www.epweike.net/dongman/dongmanqita/">动漫其他</a><a target="_self" href="http://www.epweike.net/dongman/biaoqing/">QQ表情</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/kapian/">卡片设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/kapian/huiyuanka/">会员卡设计</a><a target="_self" href="http://www.epweike.net/kapian/cardmake/">卡片制作</a><a target="_self" href="http://www.epweike.net/kapian/heka/">贺卡设计</a><a target="_self" href="http://www.epweike.net/kapian/mingpian/">名片设计</a><a target="_self" href="http://www.epweike.net/kapian/business/">名片制作</a><a target="_self" href="http://www.epweike.net/kapian/qitakapian/">其他设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/sheji/">商标/VI设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/sheji/logo/">LOGO设计</a><a target="_self" href="http://www.epweike.net/sheji/Vi/">VI设计</a><a target="_self" href="http://www.epweike.net/sheji/shanbiao/">商标设计</a><a target="_self" href="http://www.epweike.net/sheji/anniu/">按钮图标设计</a><a target="_self" href="http://www.epweike.net/sheji/ziti/">字体设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/taskbrand/">宣传品设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/taskbrand/xuanchuan/">宣传册页</a><a target="_self" href="http://www.epweike.net/taskbrand/zhaopai/">招牌设计</a><a target="_self" href="http://www.epweike.net/taskbrand/hengfu/">横幅设计</a><a target="_self" href="http://www.epweike.net/taskbrand/taili/">台历设计</a><a target="_self" href="http://www.epweike.net/taskbrand/guanggao/">广告设计</a><a target="_self" href="http://www.epweike.net/taskbrand/haibao/">海报设计</a><a target="_self" href="http://www.epweike.net/taskbrand/posters/">海报印刷</a><a target="_self" href="http://www.epweike.net/taskbrand/biaoqian/">标签设计</a><a target="_self" href="http://www.epweike.net/taskbrand/pingxing/">瓶型设计</a><a target="_self" href="http://www.epweike.net/taskbrand/beijingqiang/">背景墙设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/fushi/">服装设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/fushi/fushisheji/">服饰设计</a><a target="_self" href="http://www.epweike.net/fushi/tshirt/">T恤设计</a><a target="_self" href="http://www.epweike.net/fushi/gongzuofu/">工作服设计</a><a target="_self" href="http://www.epweike.net/fushi/tuansheji/">图案设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/yingyong/">应用设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/yingyong/baozhuang/">包装设计</a><a target="_self" href="http://www.epweike.net/yingyong/chanpin/">产品外观设计</a><a target="_self" href="http://www.epweike.net/yingyong/tupian/">图片编辑</a><a target="_self" href="http://www.epweike.net/yingyong/wenju/">文具设计</a><a target="_self" href="http://www.epweike.net/yingyong/dianlu/">电路设计</a><a target="_self" href="http://www.epweike.net/yingyong/gongye/">工业设计</a><a target="_self" href="http://www.epweike.net/yingyong/lipin/">礼品设计</a><a target="_self" href="http://www.epweike.net/yingyong/jixie/">机械设计</a><a target="_self" href="http://www.epweike.net/yingyong/ppt/">ppt设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/zhaopian/">照片处理</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/zhaopian/ktong/">照片变卡通</a><a target="_self" href="http://www.epweike.net/zhaopian/fanxin/">老照片翻新</a><a target="_self" href="http://www.epweike.net/zhaopian/hecheng/">照片修复与合成</a><a target="_self" href="http://www.epweike.net/zhaopian/meihua/">照片美化</a><a target="_self" href="http://www.epweike.net/zhaopian/ps/">婚纱照美化</a><a target="_self" href="http://www.epweike.net/zhaopian/dianzi/">电子相册</a><a target="_self" href="http://www.epweike.net/zhaopian/chuli/">其它照片处理</a><a target="_self" href="http://www.epweike.net/zhaopian/shangzhao/">商品照处理</a><a target="_self" href="http://www.epweike.net/zhaopian/yishuzhao/">艺术照处理</a><a target="_self" href="http://www.epweike.net/zhaopian/bizhi/">壁纸设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/zhuangzhen/">书籍装帧</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/zhuangzhen/fengmian/">封面设计</a><a target="_self" href="http://www.epweike.net/zhuangzhen/chatu/">插画设计</a><a target="_self" href="http://www.epweike.net/zhuangzhen/paiban/">排版设计</a><a target="_self" href="http://www.epweike.net/zhuangzhen/ebook/">电子书制作</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/websheji/">网页设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/websheji/zhengzhan/">整站网页设计</a><a target="_self" href="http://www.epweike.net/websheji/mokuai/">网站模板设计</a><a target="_self" href="http://www.epweike.net/websheji/zhanlogo/">网站标志设计</a><a target="_self" href="http://www.epweike.net/websheji/xiugai/">网站广告设计</a><a target="_self" href="http://www.epweike.net/websheji/wangye/">网站动画设计</a><a target="_self" href="http://www.epweike.net/websheji/wangyemeigong/">网页美工设计</a></div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_self" href="http://www.epweike.net/duomeiti/">多媒体设计</a></div>
+										<div class="letilistcaty"><a target="_self" href="http://www.epweike.net/duomeiti/3dcad/">3d模型及CAD</a><a target="_self" href="http://www.epweike.net/duomeiti/flash/">动画FLASH</a><a target="_self" href="http://www.epweike.net/duomeiti/adsheji/">广告片制作</a><a target="_self" href="http://www.epweike.net/duomeiti/sanwei/">三维设计</a><a target="_self" href="http://www.epweike.net/duomeiti/yinpin/">音频制作</a><a target="_self" href="http://www.epweike.net/duomeiti/peiyin/">配音录音</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/121166/" target="_blank"><img src='http://www.epweike.net/data/avatar/system/2_middle.jpg' uid='648601' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/121166/" target="_blank">hua002快乐的小天使123</a></span> <span>好评：97.78% &nbsp;出售了 <span class="cea5">17</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/90979/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='91462' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/90979/" target="_blank">北京闪宇设计</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">7</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/71755/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/07/17/68_avatar_middle.jpg' uid='71768' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/71755/" target="_blank">意轩设计</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">7</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/59129/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/05/89/50_avatar_middle.jpg' uid='58950' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/59129/" target="_blank">万法皆空设计工作室</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">5</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/53985/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/05/37/08_avatar_middle.jpg' uid='53708' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/53985/" target="_blank">锐视企划</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">4</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/21136/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/02/05/05_avatar_middle.jpg' uid='20505' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/21136/" target="_blank">旋风设计</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">12</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供开发服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span><span><a href="">应用设计</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix xer_rig f_l">
+								<div class="pl_20 mb_10"><strong>开发所有分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/wangyou/">网游服务</a></div>
+										<div class="letilistcaty"> <a target="_self" href="http://www.epweike.net/wangyou/dailian/">游戏代练</a> <a target="_self" href="http://www.epweike.net/wangyou/daixie/">代写攻略</a> <a target="_self" href="http://www.epweike.net/wangyou/juqing/">剧情策划</a> <a target="_self" href="http://www.epweike.net/wangyou/banben/">版本设计</a> <a target="_self" href="http://www.epweike.net/wangyou/baogao/">评测报告</a> <a target="_self" href="http://www.epweike.net/wangyou/shiwan/">游戏试玩</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/wanzhan/">网站开发</a></div>
+										<div class="letilistcaty"> <a target="_self" href="http://www.epweike.net/wanzhan/zonghe/">综合性网站</a> <a target="_self" href="http://www.epweike.net/wanzhan/zixunzhan/">资讯型网站</a> <a target="_self" href="http://www.epweike.net/wanzhan/groupzhan/">团购网站</a> <a target="_self" href="http://www.epweike.net/wanzhan/ecshop/">电子商务网站</a> <a target="_self" href="http://www.epweike.net/wanzhan/display/">宣传展示型网站</a> <a target="_self" href="http://www.epweike.net/wanzhan/wapzhan/">手机WAP网站</a> <a target="_self" href="http://www.epweike.net/wanzhan/gongneng/">程序功能开发</a> <a target="_self" href="http://www.epweike.net/wanzhan/shujuku/">数据库设计</a> <a target="_self" href="http://www.epweike.net/wanzhan/jiekou/">接口开发</a> <a target="_self" href="http://www.epweike.net/wanzhan/fuwuqi/">服务器系统</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/ruanjian/">软件开发</a></div>
+										<div class="letilistcaty"> <a target="_self" href="http://www.epweike.net/ruanjian/chajian/">插件开发</a> <a target="_self" href="http://www.epweike.net/ruanjian/chengxu/">程序开发</a> <a target="_self" href="http://www.epweike.net/ruanjian/pifu/">软件美工</a> <a target="_self" href="http://www.epweike.net/ruanjian/hanhua/">软件汉化</a> <a target="_self" href="http://www.epweike.net/ruanjian/bianxie/">脚本制作</a> <a target="_self" href="http://www.epweike.net/ruanjian/ceshi/">软件测试</a> <a target="_self" href="http://www.epweike.net/ruanjian/youxi/">游戏开发</a> <a target="_self" href="http://www.epweike.net/ruanjian/bangongkaifa/">办公系统开发</a> <a target="_self" href="http://www.epweike.net/ruanjian/chengxuxiugai/">程序修改</a> <a target="_self" href="http://www.epweike.net/ruanjian/qianrushi/">嵌入式</a> <a target="_self" href="http://www.epweike.net/ruanjian/zhuomian/">桌面软件</a> <a target="_self" href="http://www.epweike.net/ruanjian/multimedia/">多媒体软件</a> <a target="_self" href="http://www.epweike.net/ruanjian/qitakaifa/">其他软件开发</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/wuxian/">移动应用开发</a></div>
+										<div class="letilistcaty"> <a target="_self" href="http://www.epweike.net/wuxian/android/">Android应用</a> <a target="_self" href="http://www.epweike.net/wuxian/app/">手机游戏开发</a> <a target="_self" href="http://www.epweike.net/wuxian/appkaifa/">应用软件开发</a> <a target="_self" href="http://www.epweike.net/wuxian/ios/">IOS应用</a> <a target="_self" href="http://www.epweike.net/wuxian/apphanhua/">应用汉化</a> <a target="_self" href="http://www.epweike.net/wuxian/symbian/">Symbian应用</a> <a target="_self" href="http://www.epweike.net/wuxian/windows/">Windowsphone</a> <a target="_self" href="http://www.epweike.net/wuxian/ipad/">IPAD应用</a> </div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/118394/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/57/38/36_avatar_middle.jpg' uid='573836' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/118394/" target="_blank">创思科技</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">2</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/68747/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/06/87/04_avatar_middle.jpg' uid='68704' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/68747/" target="_blank">I-Changan软件开发工作室</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">4</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/48947/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/04/85/76_avatar_middle.jpg' uid='48576' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/48947/" target="_blank">csnr28的店铺</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">1</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供文案服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span><span><a href="">应用设计</a></span><span><a href="">照片处理</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix xer_rig f_l">
+								<div class="pl_20 mb_10"><strong>所有文案分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/qiming/">起名取名</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/qiming/gongsi/">公司起名</a> <a target="_blank" href="http://www.epweike.net/qiming/brandming/">品牌起名</a> <a target="_blank" href="http://www.epweike.net/qiming/bady/">宝宝起名</a> <a target="_blank" href="http://www.epweike.net/qiming/dianpu/">店铺起名</a> <a target="_blank" href="http://www.epweike.net/qiming/chengren/">成人起名</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/xiezuo/">文案写作</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/xiezuo/ruanwen/">宣传文案</a> <a target="_blank" href="http://www.epweike.net/xiezuo/shuoming/">产品文案</a> <a target="_blank" href="http://www.epweike.net/xiezuo/shangwen/">商业文案</a> <a target="_blank" href="http://www.epweike.net/xiezuo/juben/">写剧本脚本</a> <a target="_blank" href="http://www.epweike.net/xiezuo/bianji/">编辑校对</a> <a target="_blank" href="http://www.epweike.net/xiezuo/jianggao/">写演讲稿</a> <a target="_blank" href="http://www.epweike.net/xiezuo/zhengwen/">征稿征文</a> <a target="_blank" href="http://www.epweike.net/xiezuo/guangyu/">广告语</a> <a target="_blank" href="http://www.epweike.net/xiezuo/zhuanxie/">撰写报告</a> <a target="_blank" href="http://www.epweike.net/xiezuo/xieshu/">写书</a> <a target="_blank" href="http://www.epweike.net/xiezuo/baike/">百科撰写</a> <a target="_blank" href="http://www.epweike.net/xiezuo/pinglun/">撰写评论</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/zhufu/">创意祝福</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/zhufu/thanksgiving/">感恩回馈</a> <a target="_blank" href="http://www.epweike.net/zhufu/shenri/">生日祝福</a> <a target="_blank" href="http://www.epweike.net/zhufu/aiqing/">爱情表白</a> <a target="_blank" href="http://www.epweike.net/zhufu/shengdan/">圣诞祝福</a> <a target="_blank" href="http://www.epweike.net/zhufu/xinnian/">新年祝福</a> <a target="_blank" href="http://www.epweike.net/zhufu/sorry/">道歉短信</a> <a target="_blank" href="http://www.epweike.net/zhufu/jinian/">纪念日祝福</a> <a target="_blank" href="http://www.epweike.net/zhufu/guizhi/">祝福喜得贵子</a> <a target="_blank" href="http://www.epweike.net/zhufu/xinju/">祝福乔迁新居</a> <a target="_blank" href="http://www.epweike.net/zhufu/qita/">其他</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/plan/">策划</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/plan/hunqing/">婚庆策划</a> <a target="_blank" href="http://www.epweike.net/plan/xccehua/">宣传策划</a> <a target="_blank" href="http://www.epweike.net/plan/huodong/">活动策划</a> <a target="_blank" href="http://www.epweike.net/plan/advertising/">广告策划</a> <a target="_blank" href="http://www.epweike.net/plan/yingshi/">影视策划</a> <a target="_blank" href="http://www.epweike.net/plan/huizhan/">会展策划</a> <a target="_blank" href="http://www.epweike.net/plan/xiangmu/">项目策划</a> <a target="_blank" href="http://www.epweike.net/plan/zhengji/">征集创意</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/geci/">歌词</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/geci/gecipuqu/">歌词谱曲</a> <a target="_blank" href="http://www.epweike.net/geci/xiegeci/">歌词创作</a> </div>
+									</div>
+								</div>
+								
+				
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/121177/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='648611' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/121177/" target="_blank">成长突破</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">0</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/54218/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/05/39/47_avatar_middle.jpg' uid='53947' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/54218/" target="_blank">妙笔生文案</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">4</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/26499/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/02/58/68_avatar_middle.jpg' uid='25868' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/26499/" target="_blank">半亩荷塘</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">7</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/2129/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/00/14/94_avatar_middle.jpg' uid='1494' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/2129/" target="_blank">★7郡文字团</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">5</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供装修服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span><span><a href="">应用设计</a></span><span><a href="">照片处理</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix xer_rig f_l">
+								<div class="pl_20 mb_10"><strong>所有装修分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/jiaju/">家居装修</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/jiaju/xinfang/">新房装修</a> <a target="_blank" href="http://www.epweike.net/jiaju/shigongtu/">施工图设计</a> <a target="_blank" href="http://www.epweike.net/jiaju/xiaoguotu/">效果图制作</a> <a target="_blank" href="http://www.epweike.net/jiaju/bieshu/">别墅设计</a> <a target="_blank" href="http://www.epweike.net/jiaju/decorate/">二手房装修</a> <a target="_blank" href="http://www.epweike.net/jiaju/shouhui/">手绘墙设计</a> <a target="_blank" href="http://www.epweike.net/jiaju/videowall/">电视墙设计</a> <a target="_blank" href="http://www.epweike.net/jiaju/jiajuguihua/">智能家居系统规划</a> <a target="_blank" href="http://www.epweike.net/jiaju/jiazhuang/">家装设计</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/zhuangxiu/">建筑装修</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/zhuangxiu/zhanhui/">展会设计</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/shangpu/">办公商铺装修</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/zijianfang/">自建房装修</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/yangjian/">样板间设计</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/huisuo/">酒店会所装潢</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/jingzhuang/">精装房设计</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/shangchang/">商场装修</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/bangong/">办公装修设计</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/dianmian/">店面装修设计</a> <a target="_blank" href="http://www.epweike.net/zhuangxiu/zhanhuizx/">展会装修</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/building/">建筑设计</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/building/xiaoqubuju/">小区规划</a> <a target="_blank" href="http://www.epweike.net/building/fangwu/">房屋建筑设计</a> <a target="_blank" href="http://www.epweike.net/building/yuanlin/">园林景观</a> <a target="_blank" href="http://www.epweike.net/building/tingyuan/">庭院景观设计</a> <a target="_blank" href="http://www.epweike.net/building/diaosu/">雕塑设计</a> <a target="_blank" href="http://www.epweike.net/building/guihua/">CBD规划设计</a> <a target="_blank" href="http://www.epweike.net/building/daoshi/">导视系统设计</a> <a target="_blank" href="http://www.epweike.net/building/3dsheji/">3D模型设计</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/ruanzhuang/">软装设计</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/ruanzhuang/ruanda/">软装搭配</a> <a target="_blank" href="http://www.epweike.net/ruanzhuang/Jewelry/">软装配饰</a> <a target="_blank" href="http://www.epweike.net/ruanzhuang/xingxiang/">形象墙设计</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/custom/">定制家居</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/custom/wardrobe/">定制衣柜设计</a> <a target="_blank" href="http://www.epweike.net/custom/kitchen/">定制橱柜设计</a> <a target="_blank" href="http://www.epweike.net/custom/furniture/">定制家具设计</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/other/">其他装修</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/other/jianli/">装修监理</a> <a target="_blank" href="http://www.epweike.net/other/fengshui/">风水咨询</a> <a target="_blank" href="http://www.epweike.net/other/anotherfix/">其他装修</a> </div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/121240/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/64/93/45_avatar_middle.jpg' uid='649345' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/121240/" target="_blank">宇翔科技个人工作室</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">4</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/119547/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='600412' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/119547/" target="_blank">容儿室内设计服务中心</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">6</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/119378/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='589204' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/119378/" target="_blank">零点设计</a></span> <span>好评：100% &nbsp;出售了 <span class="cea5">1</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/49909/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/04/95/43_avatar_middle.jpg' uid='49543' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/49909/" target="_blank">第九空间工作室的店铺</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">6</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/8688/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/00/80/51_avatar_middle.jpg' uid='8051' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/8688/" target="_blank">汤金辉的商铺</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">30</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供营销服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix xer_rig f_l">
+								<div class="pl_20 mb_10"><strong>所有营销分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/promotion/">网络营销</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/promotion/luntan/">论坛推广</a> <a target="_blank" href="http://www.epweike.net/promotion/qqgp/">QQ群推广</a> <a target="_blank" href="http://www.epweike.net/promotion/webtui/">网站推广</a> <a target="_blank" href="http://www.epweike.net/promotion/blog/">博客推广</a> <a target="_blank" href="http://www.epweike.net/promotion/faruanwen/">软文发布</a> <a target="_blank" href="http://www.epweike.net/promotion/tuangou/">我要上团购</a> <a target="_blank" href="http://www.epweike.net/promotion/nettui/">网络推广</a> <a target="_blank" href="http://www.epweike.net/promotion/tgzhuce/">推广注册</a> <a target="_blank" href="http://www.epweike.net/promotion/seo/">搜索引擎优化</a> <a target="_blank" href="http://www.epweike.net/promotion/fatie/">发帖推广</a> <a target="_blank" href="http://www.epweike.net/promotion/mailtui/">邮件推广</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/weibo/">微博营销</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/weibo/chanpintui/">产品推广</a> <a target="_blank" href="http://www.epweike.net/weibo/activities/">活动推广</a> <a target="_blank" href="http://www.epweike.net/weibo/shoptui/">店铺推广</a> <a target="_blank" href="http://www.epweike.net/weibo/xinpin/">新品促销</a> <a target="_blank" href="http://www.epweike.net/weibo/twitterzp/">微博招聘</a> <a target="_blank" href="http://www.epweike.net/weibo/moban/">微博模板设计</a> <a target="_blank" href="http://www.epweike.net/weibo/botui/">微博推广</a> <a target="_blank" href="http://www.epweike.net/weibo/blessing/">微博祝福</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/tuiguang/">网店服务</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/tuiguang/duanbiao/">店标设计</a> <a target="_blank" href="http://www.epweike.net/tuiguang/wangdian/">网店取名</a> <a target="_blank" href="http://www.epweike.net/tuiguang/dianzhao/">店招设计</a> <a target="_blank" href="http://www.epweike.net/tuiguang/template/">网店模板</a> <a target="_blank" href="http://www.epweike.net/tuiguang/cehua/">网店策划</a> <a target="_blank" href="http://www.epweike.net/tuiguang/wangtui/">网店推广</a> <a target="_blank" href="http://www.epweike.net/tuiguang/baobei/">宝贝描述</a> <a target="_blank" href="http://www.epweike.net/tuiguang/dianxiu/">网店装修</a> </div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/119852/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='572251' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/119852/" target="_blank">烽火网络</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">5</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供商务服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span><span><a href="">应用设计</a></span><span><a href="">照片处理</a></span><span><a href="">书籍装帧</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix xer_rig f_l">
+								<div class="pl_20 mb_10"><strong>所有商务分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/translated/">翻译</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/translated/yingyu/">英语</a> <a target="_blank" href="http://www.epweike.net/translated/riyu/">日语</a> <a target="_blank" href="http://www.epweike.net/translated/hanyu/">韩语</a> <a target="_blank" href="http://www.epweike.net/translated/russian/">俄语</a> <a target="_blank" href="http://www.epweike.net/translated/fayu/">法语</a> <a target="_blank" href="http://www.epweike.net/translated/deyu/">德语</a> <a target="_blank" href="http://www.epweike.net/translated/spaish/">西班牙语</a> <a target="_blank" href="http://www.epweike.net/translated/alaboyu/">阿拉伯语</a> <a target="_blank" href="http://www.epweike.net/translated/qitayu/">其他语种</a> <a target="_blank" href="http://www.epweike.net/translated/chuanyi/">同声传译</a> <a target="_blank" href="http://www.epweike.net/translated/kouyi/">口译</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/zhihui/">市场调查</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/zhihui/wenjuan/">问卷调查</a> <a target="_blank" href="http://www.epweike.net/zhihui/shouji/">征集点子</a> <a target="_blank" href="http://www.epweike.net/zhihui/yijian/">意见建议</a> <a target="_blank" href="http://www.epweike.net/zhihui/dianhua/">电话调查</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/law/">法律</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/law/falvshu/">写法律文书</a> <a target="_blank" href="http://www.epweike.net/law/falvzixun/">法律咨询</a> <a target="_blank" href="http://www.epweike.net/law/zhaolvshi/">聘请律师</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/shangbiao/">商业服务</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/shangbiao/brandreg/">商标注册</a> <a target="_blank" href="http://www.epweike.net/shangbiao/shangzhu/">公司注册</a> <a target="_blank" href="http://www.epweike.net/shangbiao/zhuanli/">专利申请</a> <a target="_blank" href="http://www.epweike.net/shangbiao/zhuanrang/">商标转让</a> <a target="_blank" href="http://www.epweike.net/shangbiao/yanzi/">验资</a> <a target="_blank" href="http://www.epweike.net/shangbiao/pinggu/">评估</a> <a target="_blank" href="http://www.epweike.net/shangbiao/caiwu/">财务审计</a> <a target="_blank" href="http://www.epweike.net/shangbiao/shuiwu/">税务登记</a> <a target="_blank" href="http://www.epweike.net/shangbiao/zhaoshang/">招商加盟</a> <a target="_blank" href="http://www.epweike.net/shangbiao/nianjian/">工商年检</a> <a target="_blank" href="http://www.epweike.net/shangbiao/jizhang/">代理记账</a> <a target="_blank" href="http://www.epweike.net/shangbiao/biangeng/">企业变更</a> <a target="_blank" href="http://www.epweike.net/shangbiao/kuaijidaili/">会计代理</a> <a target="_blank" href="http://www.epweike.net/shangbiao/daiban/">工商代办</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/job/">求职招聘</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/job/jianlisheji/">简历设计</a> <a target="_blank" href="http://www.epweike.net/job/qiuzhi/">求职</a> <a target="_blank" href="http://www.epweike.net/job/zhaopin/">招聘</a> <a target="_blank" href="http://www.epweike.net/job/zhaokehu/">找客户</a> <a target="_blank" href="http://www.epweike.net/job/xunren/">寻人</a> <a target="_blank" href="http://www.epweike.net/job/duixiang/">找对象</a> <a target="_blank" href="http://www.epweike.net/job/gongying/">找供应商</a> <a target="_blank" href="http://www.epweike.net/job/zhaorenmai/">找人脉</a> </div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/84041/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/08/42/74_avatar_middle.jpg' uid='84274' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/84041/" target="_blank">集创品牌策划</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">8</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/6749/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/00/61/12_avatar_middle.jpg' uid='6112' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/6749/" target="_blank">诸葛世家</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">0</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="bar_pad">
+							<div class="bar_tl"><span class="f_r">&gt;</span><a href=""><strong>提供生活服务</strong></a></div>
+							<div class="bar_cal">
+								<span><a href="">商标/VI设计</a></span><span><a href="">宣传品设计</a></span><span><a href="">服装设计</a></span><span><a href="">应用设计</a></span><span><a href="">照片处理</a></span><span><a href="">书籍装帧</a></span>
+							</div>
+						</div>
+						<div class="catynavlist clearfix">
+							<div class="catigoroy clearfix xer_rig f_l">
+								<div class="pl_20 mb_10"><strong>所有生活分类</strong></div>
+								<div class="clearfix">
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/zhongdian/">网络钟点工</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/zhongdian/shujuluru/">数据录入</a> <a target="_blank" href="http://www.epweike.net/zhongdian/paidui/">排队</a> <a target="_blank" href="http://www.epweike.net/zhongdian/daijiaofei/">代缴费</a> <a target="_blank" href="http://www.epweike.net/zhongdian/pengchang/">捧场</a> <a target="_blank" href="http://www.epweike.net/zhongdian/jiesong/">接送</a> <a target="_blank" href="http://www.epweike.net/zhongdian/toupiao/">网络投票</a> <a target="_blank" href="http://www.epweike.net/zhongdian/jianzhi/">网络兼职</a> <a target="_blank" href="http://www.epweike.net/zhongdian/daigou/">网上代购</a> <a target="_blank" href="http://www.epweike.net/zhongdian/wangmo/">网络模特</a> <a target="_blank" href="http://www.epweike.net/zhongdian/cuxiao/">网店促销</a> <a target="_blank" href="http://www.epweike.net/zhongdian/promo/">宣传品代发</a> <a target="_blank" href="http://www.epweike.net/zhongdian/maipiao/">买票</a> <a target="_blank" href="http://www.epweike.net/zhongdian/peigou/">陪购</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/travel/">旅游服务</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/travel/baochefuwu/">包车服务</a> <a target="_blank" href="http://www.epweike.net/travel/zijialvyou/">自驾旅游</a> <a target="_blank" href="http://www.epweike.net/travel/dingjiudian/">酒店预订</a> <a target="_blank" href="http://www.epweike.net/travel/yudingpiao/">预订票</a> <a target="_blank" href="http://www.epweike.net/travel/daoyou/">导游陪游</a> <a target="_blank" href="http://www.epweike.net/travel/luxian/">路线预订</a> <a target="_blank" href="http://www.epweike.net/travel/travels/">旅行社</a> <a target="_blank" href="http://www.epweike.net/travel/jingqu/">旅游景区</a> <a target="_blank" href="http://www.epweike.net/travel/dujiacun/">度假村</a> <a target="_blank" href="http://www.epweike.net/travel/nongjiale/">农家乐</a> <a target="_blank" href="http://www.epweike.net/travel/camper/">旅行车</a> <a target="_blank" href="http://www.epweike.net/travel/tourship/">旅游船</a> <a target="_blank" href="http://www.epweike.net/travel/keepsake/">代购旅游纪念品</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/art/">文化艺术服务</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/art/artistic/">文艺创作</a> <a target="_blank" href="http://www.epweike.net/art/theatrical/">文艺表演</a> <a target="_blank" href="http://www.epweike.net/art/jingjidaili/">经纪代理</a> <a target="_blank" href="http://www.epweike.net/art/cultural/">文化活动组织</a> <a target="_blank" href="http://www.epweike.net/art/artplan/">文化活动策划</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/print/">印刷出版</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/print/chuban/">书、报、刊出版</a> <a target="_blank" href="http://www.epweike.net/print/zhizuo/">书、报、刊制作</a> <a target="_blank" href="http://www.epweike.net/print/faxing/">书、报、刊发行</a> <a target="_blank" href="http://www.epweike.net/print/zifeishu/">自费出书</a> <a target="_blank" href="http://www.epweike.net/print/qikan/">企业内刊</a> <a target="_blank" href="http://www.epweike.net/print/banquan/">版权交易</a> <a target="_blank" href="http://www.epweike.net/print/yinshua/">印刷</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/video/">影音服务</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/video/distribution/">制作与发行</a> <a target="_blank" href="http://www.epweike.net/video/adpeiyin/">广告配音</a> <a target="_blank" href="http://www.epweike.net/video/donghuadub/">动画配音</a> <a target="_blank" href="http://www.epweike.net/video/tongsheng/">童声配音</a> <a target="_blank" href="http://www.epweike.net/video/cailing/">彩铃配音</a> <a target="_blank" href="http://www.epweike.net/video/ideapeiyin/">创意配音</a> <a target="_blank" href="http://www.epweike.net/video/videopeiyin/">影视配音</a> <a target="_blank" href="http://www.epweike.net/video/waiyupeiyin/">外语配音</a> <a target="_blank" href="http://www.epweike.net/video/fangyan/">方言配音</a> <a target="_blank" href="http://www.epweike.net/video/videomake/">影视制作</a> <a target="_blank" href="http://www.epweike.net/video/xiejuben/">写剧本</a> <a target="_blank" href="http://www.epweike.net/video/videoad/">影视广告</a> <a target="_blank" href="http://www.epweike.net/video/filmzhizuo/">宣传片制作</a> <a target="_blank" href="http://www.epweike.net/video/houqi/">后期制作</a> <a target="_blank" href="http://www.epweike.net/video/weidianying/">微电影</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/adshow/">广告会展</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/adshow/huiyifuwu/">会议服务</a> <a target="_blank" href="http://www.epweike.net/adshow/guanggaoye/">广告业</a> <a target="_blank" href="http://www.epweike.net/adshow/exhibition/">展会服务</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/wedding/">婚庆</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/wedding/companys/">婚庆公司</a> <a target="_blank" href="http://www.epweike.net/wedding/hunche/">婚车租赁</a> <a target="_blank" href="http://www.epweike.net/wedding/jiudian/">婚庆酒店</a> <a target="_blank" href="http://www.epweike.net/wedding/caizhuang/">彩妆造型</a> <a target="_blank" href="http://www.epweike.net/wedding/yongpin/">婚庆用品</a> <a target="_blank" href="http://www.epweike.net/wedding/siyidudao/">司仪督导</a> <a target="_blank" href="http://www.epweike.net/wedding/hunligenpai/">婚礼跟拍</a> <a target="_blank" href="http://www.epweike.net/wedding/hunshalifu/">婚纱礼服</a> <a target="_blank" href="http://www.epweike.net/wedding/wedphoto/">婚纱摄影</a> <a target="_blank" href="http://www.epweike.net/wedding/huayisheji/">花艺设计</a> <a target="_blank" href="http://www.epweike.net/wedding/hunlicehua/">婚庆策划</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/teach/">家教</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/teach/xueqian/">学前辅导</a> <a target="_blank" href="http://www.epweike.net/teach/xiaoxue/">小学辅导</a> <a target="_blank" href="http://www.epweike.net/teach/chuzhong/">初中辅导</a> <a target="_blank" href="http://www.epweike.net/teach/gaozhong/">高中辅导</a> <a target="_blank" href="http://www.epweike.net/teach/peixun/">教育培训</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/house/">家政</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/house/shewai/">涉外家政</a> <a target="_blank" href="http://www.epweike.net/house/baojie/">保洁</a> <a target="_blank" href="http://www.epweike.net/house/yuesao/">月嫂</a> <a target="_blank" href="http://www.epweike.net/house/baomu/">保姆</a> <a target="_blank" href="http://www.epweike.net/house/parttime/">钟点工</a> <a target="_blank" href="http://www.epweike.net/house/peihu/">陪护工</a> <a target="_blank" href="http://www.epweike.net/house/yuyingshi/">育婴师</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/move/">搬家</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/move/zhuzhaibanjia/">住宅搬家</a> <a target="_blank" href="http://www.epweike.net/move/officemove/">办公室搬家</a> <a target="_blank" href="http://www.epweike.net/move/hoisting/">起重吊装</a> <a target="_blank" href="http://www.epweike.net/move/changtu/">长途搬家</a> <a target="_blank" href="http://www.epweike.net/move/shebei/">设备搬迁</a> <a target="_blank" href="http://www.epweike.net/move/lahuo/">短途拉货</a> </div>
+									</div>
+									<div class="tinicatiy clearfix">
+										<div class="leftincaty"><a target="_blank" href="http://www.epweike.net/consult/">咨询</a></div>
+										<div class="letilistcaty"> <a target="_blank" href="http://www.epweike.net/consult/xinlizixun/">心理咨询</a> <a target="_blank" href="http://www.epweike.net/consult/yimin/">移民咨询</a> <a target="_blank" href="http://www.epweike.net/consult/licai/">理财咨询</a> <a target="_blank" href="http://www.epweike.net/consult/suanming/">命理测算</a> </div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="patentuj f_l xer_lef">
+								<div class="pttliel"><em>推荐人才</em></div>
+								<ul>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/119544/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='600350' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/119544/" target="_blank">桦熙映像</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">2</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/119251/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='593175' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/119251/" target="_blank">安基雅设计</a></span> <span>好评：100% &nbsp;出售了 <span class="cea5">0</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/118621/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/57/02/66_avatar_middle.jpg' uid='570266' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/118621/" target="_blank">浅蓝色影视工作室</a></span> <span>好评：100% &nbsp;出售了 <span class="cea5">1</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/92305/" target="_blank"><img src='http://www.epweike.net/data/avatar/default/man_middle.jpg' uid='92846' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/92305/" target="_blank">宜点文化传播</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">0</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/53040/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/05/27/41_avatar_middle.jpg' uid='52741' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/53040/" target="_blank">奥巴马他舅妈的店铺</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">0</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/48251/" target="_blank"><img src='http://www.epweike.net/data/avatar/000/04/78/64_avatar_middle.jpg' uid='47864' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/48251/" target="_blank">cuijiweilove的店铺</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">12</span> 个服务</span> </div>
+									</li>
+									<li class="clearfix"> <a class="ptimg" href="http://shop.epweike.net/33048/" target="_blank"><img src='http://www.epweike.net/data/avatar/system/5_middle.jpg' uid='32553' class='pic_middle'></a>
+										<div class="ptcotn"> <span class="ptc_1"><a href="http://shop.epweike.net/33048/" target="_blank">福建漳州海商文化传媒有限公司</a></span> <span>好评：100.00% &nbsp;出售了 <span class="cea5">2</span> 个服务</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div id="sidbarbottom" class="pad10 t_c cfff">
+					<strong>选择更多，</strong>600万威客人才随你挑
+				</div>
+			</div>
+		</div>
+		<div class="navmain f_l">
+			<span><a class="on" href="">首&nbsp;页</a></span>
+			<span><a href="">找人才</a></span>
+			<span><a href="">买服务</a></span>
+			<span><a href="">接任务</a></span>
+			<span><a href="">VIP商铺特权</a></span>
+			<span><a href="">新手上路</a></span>
+			<span><a href="">成功案例</a></span>
+		</div>
+		<a class="navreles" href="">&gt;&nbsp;我有需求，免费发布任务</a>
+	</div>
+</div>
+<div class="container">
+	<div class="crumbs clearfix">
+		<!--当在个栏目首页的时候是下方的统计数据-->
+		<!--<div class="f_l pl_20">
+			<span class="c666"><strong class="c333">网站指数：</strong>  交易总额：￥2,621,859,577 元   需求总量：132,331 个   人才总量： 6,105,387 人</span>
+		</div>-->
+		<!--出现面包屑导航的时候-->
+		<div class="f_l">
+			<strong>当前位置：</strong> <a href="">首页</a>&nbsp;&gt;&nbsp;<a href="">所有人才</a>
+		</div>
+		<div class="f_r">
+			<div id="marqueebox1" class="f_r crumbcroll">
+				<a target="_blank" class="" href="http://www.epweike.com/zt//Silicon-Valley/"><span class="c999 mr_5">【京华网】</span>一品威客赴硅谷对接国际资本市场</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt/qtzt/qinghua-EMBA2/"><span class="c999 mr_5">【京华网】</span>一品威客爱情故事登上清华创训营</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt/signed/index.html"><span class="c999 mr_5">【京华网】</span>华犇基金千万元战略投资一品威客</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt/zuanqiancybw/"><span class="c999 mr_5">【京华网】</span>加入一品威客VIP,赚钱创业更简单</a><br>
+				<a target="_blank" class="red" href="http://s.epweike.com/thread-22118-1-1.html"><span class="c999 mr_5">【京华网】</span>CCTV在一品威客拍摄《我们的奋斗》</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt//Silicon-Valley/"><span class="c999 mr_5">【京华网】</span>一品威客赴硅谷对接国际资本市场</a><br>
+				<a target="_blank" class="red" href="http://www.epweike.com/zt/Talent_Xiamen/"><span class="c999 mr_5">【京华网】</span>一品威客荣膺厦门“双百计划”项目</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt/qtzt/qinghua-EMBA2/"><span class="c999 mr_5">【京华网】</span>一品威客爱情故事登上清华创训营</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt/signed/index.html"><span class="c999 mr_5">【京华网】</span>华犇基金千万元战略投资一品威客</a><br>
+				<a target="_blank" class="" href="http://www.epweike.com/zt/zuanqiancybw/"><span class="c999 mr_5">【京华网】</span>加入一品威客VIP,赚钱创业更简单</a><br>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrap">
+	<div class="container">
+	您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>您的内容<br>
+	</div>
+</div>
+<div class="helpfoot">
+	<div class="container clearfix">
+		<div class="help_box">
+			<div class="iner">
+				<strong>关于我们</strong>
+				<a href="">公司简介</a><br>
+				<a href="">发展历程</a><br>
+				<a href="">公司动态</a><br>
+				<a href="">联系方式</a><br>
+			</div>
+		</div>
+		<div class="help_box">
+			<div class="iner">
+				<strong>交易保障</strong>
+				<a href="">担保交易</a><br>
+				<a href="">诚信保障</a><br>
+				<a href="">网站协议</a><br>
+				<a href="">支付方式</a><br>
+			</div>
+		</div>
+		<div class="help_box">
+			<div class="iner">
+				<strong>移动客户端</strong>
+				<a href="">安卓客户端</a><br>
+				<a href="">iPhone客户端</a><br>
+				<a href="">iPad客户端</a><br>
+			</div>
+		</div>
+		<div class="help_box">
+			<div class="iner">
+				<strong>官方微信</strong>
+				<div class="mosver"><img src="http://img10.epweike.com/tpl/default/theme/simple/img/2013/weixinerwei.png"></div>
+				<div style="display:none; position:absolute;" class="mosver_show"><img src="http://img13.epweike.com/tpl/default/theme/simple/img/2013/weixinerwei200x200.png"></div>
+			</div>
+		</div>
+		<div class="help_box">
+			<div class="iner">
+				<strong>关注我们</strong>
+				<a href="">新浪官方微博</a><br>
+				<a href="">腾信官方微博</a><br>
+				<a href="">一句话点评</a><br>
+				<a href="">分享给好友</a><br>
+			</div>
+		</div>
+		<div class="help_box last">
+			<div class="iner">
+				<strong>联系我们</strong>
+				<div class="phonenumb clearfix">
+					<div class="f_l">
+						<b>24小时</b><br>
+						咨询热线
+					</div>
+					<span class="ph_u">4006-999-467</span>
+				</div>
+				<div class="mt_20 c666">
+					在线： AM8：30 - PM20：30<br>
+					地址： 福建厦门软件园二期望海路10号二栋3层
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<a href="">首页</a>&nbsp;|&nbsp;<a href="">关于我们</a>&nbsp;|&nbsp;<a href="">新闻中心</a>&nbsp;|&nbsp;<a href="">支付方式</a>&nbsp;|&nbsp;<a href="">联系方式</a>&nbsp;|&nbsp;<a href="">客服中心</a>&nbsp;|&nbsp;<a href="">我也要和一品合作</a>&nbsp;|&nbsp;<a href="">人才招聘</a>&nbsp;|&nbsp;<a href="">网站地图</a><br>
+		<div class="pt_10">Copyright ©  2010-2014 www.epweike.com 一品威客网络科技有限公司版权所有  备案：闽ICP备12001463号 站长统计</div>
+		<div class="pt_10">
+			<a target="_blank" title="厦门市网络警察" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=http://www.xiamen.cyberpolice.cn/"><img src="http://img10.epweike.com/tpl/default/theme/simple/img/index/001.png" original-title=""></a>
+			<a target="_blank" title="福建省网络工商" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=http://www.fjaic.gov.cn/"><img src="http://img12.epweike.com/tpl/default/theme/simple/img/index/002.png" original-title=""></a>
+			<a target="_blank" title="支付宝合作商家" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=https://www.alipay.com"><img src="http://img13.epweike.com/tpl/default/theme/simple/img/index/003.png" original-title=""></a>
+			<a target="_blank" title="中国银联合作商家" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=http://cn.unionpay.com/"><img src="http://img10.epweike.com/tpl/default/theme/simple/img/index/004.png" original-title=""></a>
+		</div> 
+	</div>
+</div>
+<!--[if lt IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+<script>
+DD_belatedPNG.fix('.touming,img'); 
+DD_belatedPNG.fix('.ico_serch,background'); 
+// <![CDATA[
+if((window.navigator.appName.toUpperCase().indexOf("MICROSOFT")>=0)&&(document.execCommand))
+try{
+document.execCommand("BackgroundImageCache", false, true);
+}
+catch(e){}
+ // ]]>
+</script>
+<![endif]-->
+<!--每个页面下现有的一些全局变量声明，参考现有页面-->
+<script type="text/javascript">
+var SITEURL		= "http://www.epweike.net";
+var IMGURL		= "http://www.epweike.net";
+var CSSURL		= "http://www.epweike.net";
+var JSURL		= "http://www.epweike.net";
+var SKIN_PATH	= 'tpl/default';
+var LANG		= 'cn';
+var INDEX		= 'index';
+var CHARSET		= "utf-8";
+var FORMHASH    = "";  
+var request_uri = "/";
+var http_host = "www.epweike.net";
+</script>
+<!--每个页面下现有的一些全局变量声明 结尾-->
+<script src="js/jquery.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://img10.epweike.com/resource/js/system/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/in.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/uistyle.js" type="text/javascript"></script>
+
+<script src="js/marquee.js"></script>
+<script type="text/javascript">
+//面包屑导航中的滚动
+startmarquee(24,100,2000,1);/**startmarquee(一次滚动高度,速度,停留时间,图层标记);**/
+</script> 
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>各种UI组件</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+
+<body>
+<a href="" class="button">按钮</a>
+<button>按钮</button>
+<br>
+<br>
+<a href="" class="button red">按钮</a>
+<button class="red">按钮</button>
+<br>
+<br>
+<div class="page"> <span>1/189页</span><a href="">&lt;&lt;&nbsp;上一页</a> <a href="">1</a> <a class="selected" href="">2</a> <a href="">3</a> <a href="">4</a> <a href="">5</a> <a href="">下一页&nbsp;&gt;&gt;</a> <a href="">最后一页</a>
+	<input type="text" size="1" class="txt_input" original-title="">
+	<button>跳转</button>
+</div>
+<br>
+<input type="text" value="test">
+<br>
+<br>
+<strong>下拉选择框</strong><br>
+<select id="selec_1" style="width:200px;" namtitos="http://www.epweike.net/release.html" onChange="changeCon(this)">
+	<option>请选择</option>
+	<option>福建</option>
+	<option>江西</option>
+</select>
+<br>
+<br>
+<select multiple="multiple" style="width:300px" class="populate placeholder" id="selec_2" style="width:200px;" namtitos="http://www.epweike.net/release.html">
+	<option>请选择</option>
+	<option>福建</option>
+	<option>江西</option>
+</select>
+<br>
+<br>
+<input style="width:500px" id="selec_3" class="bigdrop select2-offscreen">
+<br>
+<br>
+<select multiple id="selec_4" style="width:300px">
+   <optgroup label="Alaskan/Hawaiian Time Zone">
+	   <option value="AK">Alaska</option>
+	   <option value="HI">Hawaii</option>
+   </optgroup>
+   <optgroup label="Pacific Time Zone">
+	   <option value="CA">California</option>
+	   <option value="NV">Nevada</option>
+	   <option value="OR">Oregon</option>
+	   <option value="WA">Washington</option>
+   </optgroup>
+   <optgroup label="Mountain Time Zone">
+	   <option value="AZ">Arizona</option>
+	   <option value="CO">Colorado</option>
+	   <option value="ID">Idaho</option>
+	   <option value="MT">Montana</option><option value="NE">Nebraska</option>
+	   <option value="NM">New Mexico</option>
+	   <option value="ND">North Dakota</option>
+	   <option value="UT">Utah</option>
+	   <option value="WY">Wyoming</option>
+   </optgroup>
+   <optgroup label="Central Time Zone">
+	   <option value="AL">Alabama</option>
+	   <option value="AR">Arkansas</option>
+	   <option value="IL">Illinois</option>
+	   <option value="IA">Iowa</option>
+	   <option value="KS">Kansas</option>
+	   <option value="KY">Kentucky</option>
+	   <option value="LA">Louisiana</option>
+	   <option value="MN">Minnesota</option>
+	   <option value="MS">Mississippi</option>
+	   <option value="MO">Missouri</option>
+	   <option value="OK">Oklahoma</option>
+	   <option value="SD">South Dakota</option>
+	   <option value="TX">Texas</option>
+	   <option value="TN">Tennessee</option>
+	   <option value="WI">Wisconsin</option>
+   </optgroup>
+   <optgroup label="Eastern Time Zone">
+	   <option value="CT">Connecticut</option>
+	   <option value="DE">Delaware</option>
+	   <option value="FL">Florida</option>
+	   <option value="GA">Georgia</option>
+	   <option value="IN">Indiana</option>
+	   <option value="ME">Maine</option>
+	   <option value="MD">Maryland</option>
+	   <option value="MA">Massachusetts</option>
+	   <option value="MI">Michigan</option>
+	   <option value="NH">New Hampshire</option><option value="NJ">New Jersey</option>
+	   <option value="NY">New York</option>
+	   <option value="NC">North Carolina</option>
+	   <option value="OH">Ohio</option>
+	   <option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option>
+	   <option value="VT">Vermont</option><option value="VA">Virginia</option>
+	   <option value="WV">West Virginia</option>
+   </optgroup>
+</select>
+<br>
+<br>
+<strong>表单验证</strong>
+<pre>
+2012/9/23 新加正则判断 By MiNG
+	type:regx
+	调用例子: 
+       <form><input type="text"  limit="type:regx;required:true;re:/^[a-z]{1}(\\w){5,9}$/i" msgarea="code_span" msg="输入错误" id="example"><span id="code_span" class="login_msg"></span>
+	   </form>
+|功能1.表单字段验证
+|      方法签名：validElement(element).
+|      功能：如果验证失败，返回false。显示在页面或跳出错误信息。
+|      参数说明：element:HTML元素，在页面上调用此方法时请使用 'this'调用。
+|                limit:验证条件串：如：'type:float;required:true;decLen:2'
+|                      limit的属性可以有: type,required,len,between,decLen,
+|                                         equals,general
+|                      属性说明:
+|						 type:string,int,digit,float,email,ip,url,date,datetime,time
+|                             tel,fax,mobileCn,idCard,signName,name,postcodeCn
+|                             default: string.
+|                        required:可选值有true和false.default:false.
+|                        len:字符串长度,值为 "6-20",表示长度在6和20之间。也可
+|                             以为"-20"，表示不超过20。
+|						 between:数值有效,在两个值之间。可为 "10-100"，表示大
+|                                小在10与00之间，也可为"-100",表示小于100。
+|                        decLen:浮点型精度长度.若不符合精度将会自动纠正.
+|                        equals:是否要求与其它元素相等。用于密码确认等场合.
+|                        general:是否是一般字符。不包括特殊字符.Default:true.
+						 than:与指定对象比较日期值，如果大于return true.
+|                msgArea:显示错误信息的SPAN或DIV的ID。如果传入为空，则会查找
+|                        global_error_msg_area 的SPAN或DIV，如果也为空，则会
+|                        alert 这些错误信息。
+|                msg:错误信息，如果这个参数为""，则会打出默认的错误信息.
+				 caseon:  值为 all submit blur
+				 		 默认为all  指全部验证  为submit时只在提交时验证  为blur时只在离焦验证
+|功能2.表单自动验证:
+|      方法签名：checkForm(form,isCheckAll)
+|      isCheckAll:是否检查所有的元素：如为False,验证会在第一个错误出现时退出，否则，会验证所有的元素
+|      功能：验证表单中所有需要验证的字段.失败返回false.显示或跳出错误信息.
+|      使用条件：需要验证的元素需要定义至少 limit 属性，程序会自动搜索这个表单中所有需要验证的元素。
+|提示:如果您需要把错误信息显示在某一个单独的地方，可以定义一个ID为 global_error_msg_area 的DIV或是SPAN
+|   　表单的验证将默认限制特殊字符，可以加入 general:false 来取消限制
+\*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*\
+|  Subject:       JavaScript validation API
+|验证API
+|验证函数列表：
+|
+|judgeDigit(arguments...) :判断是否数字
+|三种调用方式:
+|1.一个参数,简单判断是否为数字,但长度不超过10位
+|2.三个参数,第二个参数为 '>'(大于) 或 '<'(小于),第3个参数为要比较的数字
+|3.三个参数，第二个参数与第三个参数均为整数，判断传入的第一个参数值是否在他们中间.(含边界)
+|
+|judgeFloat(arguments...):浮点数
+|如果是一个参数，那么判断是否为浮点数
+|如果有两个参数，那么将第二个参数作为精度限定参数
+|如果有三个参数，那么第二个参数为最小值，第三个参数是将作为数值上限
+|
+|isDigit(str):是否数字
+|
+|isSignName(arguments...)
+|两种调用方式：
+|一个参数：(默认为2--32位)，判断标识符或是登录名
+|判断标识符或是登录名，以字母开头,可带数字、"_"、"." 的字串
+|三个参数：
+|限定最小长度(第二个参数)与最大长度(第三个参数)
+|
+|isRealName(str) :判断是否是真实姓名
+|isTel(str) :电话号码:除数字外，可含有"-".校验普通电话，除数字外，可用"-"或空格分开
+|isMobileCN(s) :中国大陆地区手机号码,以13或15开头，使用时请根据变化修改,
+|isPostalCodeCN(s):中国地区邮编
+|isEmail(s) :E-mail
+|isURL(s) :URL
+|isIP(s):IP-32
+|isHtmlTag(s):HTML Tag
+|isIDNumber15(s):身份证号15位
+|isIDNumber18(s):身份证号18位
+|isChineseString(s):中文字符
+|isDoubleByteString(s):双字节
+|hasHESpace(s):是否包含首尾空格，如果包含，返回TRUE
+|isQQ(s):QQ
+|isFloat(s):是否是浮点数
+|isLeapYear(y):是否闰年
+|isDateYMD(s):日期：yyyy-mm-dd 或 yyyy/mm/dd,支持1600年以后(包含闰年验证)
+|isDateDMY(s):日期：dd-mm-yyyy 或 dd/mm/yyyy,支持1600年以后(包含闰年验证)
+|isDateMDY(s):日期：mm/dd/yyyy 或 mm-dd-yyyy,支持1600年以后(包含闰年验证)
+|isDateTimeYMD(s):日期：yyyy/mm/dd hh:mm:ss 或 yyyy-mm-dd hh:mm:ss,支持1600年以后(包含闰年验证)
+|
+|containsSpecialChar()
+|是否包含非特殊字符(正常字符包括字母数字,下划线,和点号,空格,@#$% 和双字节)若包含,返回true
+|
+|以下方法遵守这样的调用法则:
+|1.一个参数，不限制长度
+|2.三个参数，第二个参数表示允许的最小长度，第三个参数表示允许的最大长度
+|
+|isDigitString():数字
+|isLetter():字母
+|isUpperLetter():大写字母
+|isLowerLetter():小写字母
+|isLetterNumString():字母与数字
+|isLNUString() :数字，字母，下划线字符串
+|
+|兼容性:在IE6.0与Firefox2.0下测试通过。
+|License:Apache license2.0.请在使用此代码时包含license与作者信息.
+\*-----------------------------------------------------------------------------------------*/
+</pre>
+<form name="register_frm" id="register_frm" method="post" action="index.php?do=register">
+	<div>
+		<label class="grid_3"> 用&nbsp;户&nbsp;名：</label>
+		<input type="text" msgarea="login_account_msg" msg="用户名输入有误！" limit="required:true;leng:4-16;type:signName;general:true" id="txt_account" name="txt_account" autocomplete="off">
+		<span id="login_account_msg" class="login_msg"></span>
+	</div>
+	<br>
+	<div>
+		<label class="grid_3"> 密&nbsp;&nbsp;&nbsp;&nbsp;码： </label>
+		<input type="password" msgarea="password_msg" msg="密码输入有误！" limit="required:true;len:6-20" maxlength="20" id="pwd_password" name="pwd_password">
+		<span id="password_msg" class=""></span>
+	</div>
+	<br>
+	<div>
+		<label class="grid_3"> 确认密码： </label>
+		<input type="password" msgarea="password2_msg" msg="重复密码不正确！" limit="required:true;equals:pwd_password" maxlength="20" id="pwd_password2" name="pwd_password2">
+		<span id="password2_msg" class=""></span>
+	</div>
+	<br>
+	<div>
+		<label class="grid_3"> 邮&nbsp;&nbsp;&nbsp;&nbsp;箱： </label>
+		<input type="text" msgarea="email_msg" msg="email 格式有误" limit="type:email;required:true;len:6-50" id="txt_email" name="txt_email" autocomplete="on">
+		<span id="email_msg" class=""></span>
+	</div>
+</form>
+<br>
+<strong>提示插件用法</strong>
+<input type="text" msg="任务标题填写错误，2-50字" original-title="任务标题长度2-50字" class="txt_input">
+<br><br>
+<a tipsy="tipsy-s" original-title="任务标题长度2-50字" href="">任务标题长度</a>
+<br><br><br><br><br>
+<script src="js/jquery.js"></script> 
+<script src="js/Plugin/select2/select2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/select2.css">
+<script type="text/javascript">
+In('showDialog','showDialog_css');
+
+function changeCon(obj){
+		var urlrls = $(obj).attr('namtitos');
+		alert (urlrls);
+		var sp = urlrls.indexOf('?') >= 0 ? '&' : '?';
+	}
+$(function(){
+	showModalDialog("modal.htm","dialogWidth=200px;dialogHeight=100px");
+	//实例1
+	$("#selec_1").select2({
+		placeholder: "Select a State",
+		allowClear: true
+	});
+	//实例2
+	$("#selec_2").select2({
+		placeholder: "选择一个选项"
+	});
+	//实例3
+	//HTML格式化函数
+	function movieFormatResult(movie) {
+        var markup = "<table class='movie-result'><tr>";
+        if (movie.posters !== undefined && movie.posters.thumbnail !== undefined) {
+            markup += "<td class='movie-image'><img src='" + movie.posters.thumbnail + "'/></td>";
+        }
+        markup += "<td class='movie-info'><div class='movie-title'>" + movie.title + "</div>";
+        if (movie.critics_consensus !== undefined) {
+            markup += "<div class='movie-synopsis'>" + movie.critics_consensus + "</div>";
+        }
+        else if (movie.synopsis !== undefined) {
+            markup += "<div class='movie-synopsis'>" + movie.synopsis + "</div>";
+        }
+        markup += "</td></tr></table>";
+        return markup;
+    }
+
+    function movieFormatSelection(movie) {
+        return movie.title;
+    }
+	$("#selec_3").select2({//根据从前端传递的条件，在服务端进行筛选，然后返回JSON数据，尚未在前端实现，只是提供了代码方式
+		placeholder: "搜索电影",
+		minimumInputLength: 3,//限制必须输入三个字符以上才能进行搜索
+		ajax: {
+			url: "movies.json",
+			dataType: 'jsonp',
+			quietMillis: 100,
+			data: function (term, page) { // page is the one-based page number tracked by Select2
+				return {
+					q: term, //search term
+					page_limit: 10, // page size
+					page: page, // page number
+				};
+			},
+			results: function (data, page) {
+				var more = (page * 10) < data.total; // 可以得知是否能载入更多的结果
+				return {results: data.movies, more: more};
+			}
+		},
+		formatResult: movieFormatResult, //使用一定的HTML结构将数据显示出
+		formatSelection: movieFormatSelection, // 用于显示当前的选择。
+		dropdownCssClass: "bigdrop", // 设置下拉的CLASS
+		escapeMarkup: function (m) { return m; } // 当将结果显示HTML的时候，对它进行编码
+	});
+	//实例4
+	$("#selec_4").select2({ maximumSelectionSize: 3 });
+});
+</script> 
+<!--表单验证--> 
+<script src="js/form_and_validation.js"></script>
+
+<!--提示-->
+<script src="js/Plugin/tipsy/jquery.tipsy.js"></script>
+<link rel="stylesheet" type="text/css" href="js/Plugin/tipsy/tipsy.css">
+<script type="text/javascript">
+$(function(){
+	 //添加提示
+    $('input,textarea').tipsy({
+        gravity: $.fn.tipsy.autoWE,
+        trigger: 'focus'
+    });
+	$('a[tipsy="tipsy-s"]').tipsy({gravity: 's'});
+	
+ })
+
+</script> 
+</body>
+</html>

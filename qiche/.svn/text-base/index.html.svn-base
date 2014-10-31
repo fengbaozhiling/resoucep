@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">     
+<title>快修爱上有一手</title>
+<link href="css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="pag">
+	<header>
+		<div class="top clearfix"><a href=""><img src="images/logo.png" alt=""></a><span>400719711</span></div>
+	</header>
+	<nav>
+		<div class="nav">
+			<ul class="clearfix">
+				<li><a href="">首页</a></li>
+				<li><a href="">案例</a></li>
+				<li><a href="">商铺</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="cont1">
+		<div class="font1 c049"><strong>快修爱上有壹手</strong></div>
+		<div class="font2 c049"><strong>中国首家“超4S”钣喷快修电商品牌</strong></div>
+		<div class="font2 c049">速度超4S！品质超4S！低价超4S！</div>
+		<div class="font2 c049">质保超4S！体验超4S!</div>
+	</div>
+	<div class="form clearfix">
+		<form method="POST" action="http://wap.y1s.cn/y1s/Book" accept-charset="UTF-8" class="form-book" role="form" id="bookForm" enctype="multipart/form-data">
+		<input name="_token" type="hidden" value="tgF8eUvyuU0OaDr05IaGq1wPp5KNKxxJvPR59Vr8">
+		<ul class="clearfix">
+			<li class="book">
+				<dl>
+					<dd><span class="fot">选择车型，马上预约</span></dd>
+					<dd>
+						<select id="car_brand" name="brid" onChange="getCars(this, 'car_id');" autocomplete="off">
+							<option value="-1">请选择品牌</option>
+							<option value="112">-其它</option>
+							<option value="1">A-奥迪</option>
+							<option value="17">A-AMG</option>
+							<option value="6">A-阿尔法-罗米欧</option>
+							<option value="5">A-阿斯顿-马丁</option>
+							<option value="113">B-宝骏</option>
+							<option value="14">B-布嘉迪</option>
+							<option value="13">B-宾利</option>
+							<option value="9">B-别克</option>
+							<option value="12">B-比亚迪</option>
+							<option value="11">B-保时捷</option>
+							<option value="10">B-北汽制造</option>
+							<option value="8">B-标致</option>
+							<option value="7">B-本田</option>
+							<option value="115">B-北汽威旺</option>
+							<option value="3">B-奔驰</option>
+							<option value="2">B-宝马</option>
+							<option value="114">C-长安标致雪铁龙DS</option>
+							<option value="21">C-川汽野马</option>
+							<option value="20">C-长丰扬子</option>
+							<option value="19">C-长丰猎豹</option>
+							<option value="15">C-昌河汽车</option>
+							<option value="18">C-长城</option>
+							<option value="16">C-长安</option>
+							<option value="116">D-东风风行</option>
+							<option value="29">D-大宇</option>
+							<option value="28">D-大发</option>
+							<option value="27">D-东南</option>
+							<option value="26">D-东风柳汽</option>
+							<option value="25">D-东风风神</option>
+							<option value="23">D-道奇</option>
+							<option value="22">D-大众</option>
+							<option value="117">D-大通</option>
+							<option value="107">F-福特</option>
+							<option value="35">F-法拉利</option>
+							<option value="33">F-福迪</option>
+							<option value="32">F-菲亚特</option>
+							<option value="34">F-福田汽车</option>
+							<option value="4">F-丰田</option>
+							<option value="118">G-广汽</option>
+							<option value="119">G-GMC</option>
+							<option value="45">H-霍顿</option>
+							<option value="44">H-悍马</option>
+							<option value="43">H-黄海</option>
+							<option value="37">H-海马汽车</option>
+							<option value="38">H-河北中兴</option>
+							<option value="39">H-红旗</option>
+							<option value="36">H-哈飞汽车</option>
+							<option value="40">H-华晨金杯</option>
+							<option value="41">H-华晨中华</option>
+							<option value="42">H-华泰汽车</option>
+							<option value="24">J-吉利帝豪</option>
+							<option value="48">J-江淮汽车</option>
+							<option value="120">J-吉利全球鹰</option>
+							<option value="50">J-江南汽车</option>
+							<option value="46">J-吉奥汽车</option>
+							<option value="53">J-九龙商务车</option>
+							<option value="52">J-吉普</option>
+							<option value="51">J-捷豹</option>
+							<option value="47">J-吉利英伦</option>
+							<option value="109">K-开瑞</option>
+							<option value="55">K-凯迪拉克</option>
+							<option value="54">K-克莱斯勒</option>
+							<option value="123">L-陆风</option>
+							<option value="66">L-路虎</option>
+							<option value="64">L-莲花</option>
+							<option value="56">L-铃木</option>
+							<option value="59">L-蓝旗亚</option>
+							<option value="60">L-兰博基尼</option>
+							<option value="61">L-劳斯莱斯</option>
+							<option value="65">L-林肯</option>
+							<option value="62">L-雷克萨斯</option>
+							<option value="63">L-雷诺</option>
+							<option value="57">L-力帆汽车</option>
+							<option value="67">M-玛莎拉蒂</option>
+							<option value="31">M-MG</option>
+							<option value="30">M-马自达</option>
+							<option value="68">M-迈巴赫</option>
+							<option value="69">M-迷你</option>
+							<option value="122">N-纳智捷</option>
+							<option value="70">N-南汽新雅途</option>
+							<option value="111">O-欧宝</option>
+							<option value="71">P-旁蒂克</option>
+							<option value="100">Q-汽吉林</option>
+							<option value="73">Q-奇瑞</option>
+							<option value="72">Q-起亚</option>
+							<option value="74">Q-全顺</option>
+							<option value="76">R-瑞麒</option>
+							<option value="110">R-荣威</option>
+							<option value="75">R-日产</option>
+							<option value="84">S-萨博</option>
+							<option value="79">S-上海华普</option>
+							<option value="81">S-双环汽车</option>
+							<option value="82">S-Scion</option>
+							<option value="83">S-smart</option>
+							<option value="78">S-斯柯达</option>
+							<option value="77">S-三菱</option>
+							<option value="87">S-斯巴鲁</option>
+							<option value="85">S-世爵</option>
+							<option value="86">S-双龙</option>
+							<option value="90">T-塔塔</option>
+							<option value="89">T-天马汽车</option>
+							<option value="88">T-天津一汽</option>
+							<option value="125">T-特斯拉</option>
+							<option value="106">W-沃尔沃</option>
+							<option value="92">W-威麟</option>
+							<option value="93">W-五菱</option>
+							<option value="94">X-现代</option>
+							<option value="96">X-雪铁龙</option>
+							<option value="97">X-西雅特</option>
+							<option value="95">X-雪佛兰</option>
+							<option value="98">Y-一汽奔腾</option>
+							<option value="99">Y-一汽华利</option>
+							<option value="101">Y-一汽自由风</option>
+							<option value="102">Y-永源飞碟</option>
+							<option value="103">Y-英菲尼迪</option>
+							<option value="104">Z-众泰</option>
+							<option value="108">Z-讴歌</option>
+							<option value="105">Z-中誉汽车</option>
+						</select>
+					</dd>
+					<dd>
+						<select id="car_id" name="cid" autocomplete="off">
+							<option value="-1" >请选择车型</option>
+						</select>
+					</dd>
+					<dd>
+						<select name="service" id="service">
+							<option value="-1" >请选择服务</option>
+							<option value="1" >钣喷快修</option>
+							<option value="2" >汽车镀晶美容</option>
+							<option value="3" >全车翻新或改色</option>
+						</select>
+					</dd>
+					<dd>
+						<input class="tx" type="text" name="userphone" placeholder="请输入手机号码"  />
+					</dd>
+					<input type="hidden" name="brname" id="brname"  value="" />
+					<input type="hidden" name="cname"   id="cname"  value="" />
+					<input type="hidden" name="servicename"   id="servicename" value="" />
+				</dl>
+			</li>
+		</ul>
+		<div class="filebox">
+			<input type="file" name="book_file" id="book_file" onchange="showupload();" />
+			<span class="ploadtip">请上传图片哦！</span>
+			<span class="showupload" id="showupload"></span>
+		</div>
+		</form>
+		<div class="clear"></div>
+		<a class="button" id="book" href="#" onclick="submitForm();">我要快修</a>
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img1_b.jpg">
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>快，根本不花时间！</strong></span>
+	</div>
+	<div class="tipbox">
+		<span class="tips-b">来店快修</span>
+	</div>
+	<div class="cont2">
+		三块以下小刮小蹭，立等可取！<br>
+		八块以下钣金喷漆，当天交车！<br>
+		全车翻新或改色，最快48小时交车！<br>
+	</div>
+	<div class="tipbox">
+		<span class="tips-b">上门取送</span>
+	</div>
+	<div class="cont2">
+		零时快修，无需到店，专职司机上门取送车！<br>
+		*夜间修车*限行日修车*节假日修车*上班时间修车。<br>
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img5_b.jpg">
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img7_b.jpg">
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>快，价格低，您还可以不花钱！</strong></span>
+	</div>
+	<div class="cont2">
+		车险销售、定损、直赔—条龙服务！超4S体验！<br>
+		免繁琐理赔手续！免个人垫付现金！免无车可用的尴尬！<br>
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img13.jpg">
+	</div>
+	<div class="cont2">
+		<strong>更多车险公司将陆续开通！</strong>
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>快，我们还可以为您终身质保！</strong></span>
+	</div>
+	<div class="cont2">
+		<div class="t_c c049"><span class="font3">顶尖设备，顶尖工艺、顶尖品质保障！</span></div>
+	</div>
+	<div class="cont2">
+		车间总面积超6000平米、50个钣喷快修车位、12套全智能数控烤房系统、50套进口无尘干磨系统、100套进口短波红外线快修烤灯，全面保障我们的交车承诺。4S店质保一般2-3年，有壹手终身质保。
+	</div>
+
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img14_b.jpg">
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img17_b.jpg">
+	</div>
+	<div class="cont3">
+		<div class="t_c c049"><span class="font3">全城覆盖，联保直修，总有壹店离您最近！</span></div>
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img20.jpg">
+	</div>
+	<div class="ulcon clearfix">
+		<div class="f_l">
+			<ul class="clearfix">
+				<li><i class="icor"></i>京密路中心店</li>
+				<li><i class="icor"></i>四季宵中心店</li>
+				<li><i class="icor"></i>顺义中心店</li>
+				<li><i class="icor"></i>十八里店中心店</li>
+				<li><i class="icor"></i>花乡中心店</li>
+				<li><i class="icor"></i>天通苑社区店</li>
+			</ul>
+		</div>
+		<a class="f_r" href=""><img class="lazy" data-original="images/daohang.png"></a>
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>快，还有三赔承诺！</strong></span>
+	</div>
+	<div class="peicang clearfix">
+		<div class="f_l">
+			<img class="lazy" data-original="images/img21.jpg">
+		</div>
+		<ul>
+			<li class="clearfix">
+				<span><img class="lazy" data-original="images/img22.jpg"></span>
+				<div class="cont">
+				自费价格不低于同品睥4S店报价30%以上，我们在退还差价基础上赔偿您300元！
+				</div>
+			</li>
+			<li class="clearfix">
+				<span><img class="lazy" data-original="images/img23.jpg"></span>
+				<div class="cont">
+				交车时间晚于我们接车时的承诺时间，我们赔偿您300元！
+				</div>
+			</li>
+			<li class="clearfix">
+				<span><img class="lazy" data-original="images/img24.jpg"></span>
+				<div class="cont">
+				施工品质厦工艺低于当地同类45店标准，我们赔偿您300元。
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>豪车漆修，必有高手！</strong></span>
+	</div>
+	<div class="cont2">
+		有壹手作为全球领先PPG陶瓷清漆Cerami Clear认证服务商，优选全球第一款具有原厂车漆相同耐刮伤能力和表面硬度的汽车修补漆，首次将这种对施工工艺要求极高的喷涂科技引入中国钣喷快修领域，为中国豪车车主带来与全球同步的车漆修复体验。（陶瓷清漆为可选产品）
+	</div>
+	<div class="tipbox2">
+		PPG陶瓷清漆 Cerami Clear<br>
+		欧洲科技创新金奖产品<br>
+		底特律PACE获奖产品<br>
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img25_b.jpg">
+	</div>
+	<div class="imgbox_w clearfix">
+		<img class="lazy" data-original="images/img28_b.jpg">
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>买车险，还送“车险不涨宝”！！</strong></span>
+	</div>
+	<div class="cont2">
+		<div class="imgbox_w mb_20"><img class="lazy" data-original="images/img30.jpg"></div>
+		<div class="mb_20">
+			<div class="t_c c049"><em class="font3">全城覆盖，联保直修，总有一店离你最近！</em></div>
+		</div>
+		<div class="reyi c049 clearfix">
+			<div class="f_l">
+				<em class="font3">购买任意车险：</em>
+			</div>
+			<div class="cont f_l">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em class="c333">第一块&nbsp;&nbsp;喷漆免费送！</em ><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<em class="c333">第一块&nbsp;&nbsp;喷漆打7折！</em ><br>
+				&nbsp;&nbsp;<em class="c333">第一块&nbsp;&nbsp;喷漆打6折！</em ><br>
+			</div>
+		</div>
+	</div>
+	<div class="tipbox">
+		<span class="tips-c"><strong>线上下单，线下施工、全新体验、好评如潮！</strong></span>
+	</div>
+	<div class="imgbox_w">
+		<img class="lazy" data-original="images/img31.jpg">
+	</div>
+	<div class="tipbox">
+		<span class="tips-a"><strong>有壹手——中国最强钣喷团队</strong></span>
+	</div>
+	<div class="cont3">
+		有壹手最强钣喷快修核心团队，来自全球汽车修朴漆领导品牌PPG，以及奔驰、宝马、保时捷、奥迪等多家高端品牌4S店。
+	</div>
+	<div class="imgbox_w">
+		<img class="lazy" data-original="images/img32_b.jpg">
+	</div>
+	<div class="imgbox_w">
+		<img class="lazy" data-original="images/img34_b.jpg">
+	</div>
+	<div class="imgbox_w">
+		<img class="lazy" data-original="images/img36.jpg">
+	</div>
+	<div class="cont3 mt_20">
+		<div class="t_c mb_10 c049"><span class="font2">400719711</span></div>
+		<div class="t_c mb_20">仅收市话费，周一至周日8:30-21:30</div>
+	</div>
+	<div class="t_c imgbt mb_20">
+		<img class="lazy" data-original="images/img37.jpg">
+	</div>
+	<div class="tipbox mb_10">
+		<span class="tips-a"><strong>快，请忘掉4S店！</strong></span>
+	</div>
+	<footer>
+		<div>©2014 版权所有：zhongliangwenwx@163.com</div>
+	</footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="http://wap.y1s.cn/assets/js/jquery.filestyle.js"></script>
+<script src="js/imagelazy.js"></script>
+<script>
+$("img.lazy").lazyload({effect: "fadeIn"});
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>

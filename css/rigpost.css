@@ -1,0 +1,126 @@
+@charset "utf-8";
+/*通用*/
+.a1 a:link, .a1 a:visited, .a1 a:active { color:#333333; }
+.a1 a:hover { color:#EB2626; }
+.a2 a:link, .a2 a:visited, .a2 a:active { color:#0066CC; }
+.a2 a:hover { /*color:#003060;*/ color:#eb2626; }
+.a3 a:link, .a3 a:visited, .a3 a:active { color:#ffffff; }
+.a3 a:hover { color:#f4f4f4; }
+.a4 a:link, .a4 a:visited, .a4 a:active { color:#339999; }
+.a4 a:hover { color:#236969; }
+u { text-decoration:none; }
+i,em{ font-style:normal; }
+
+.heigth1{height:10px; line-height:0px; font-size:0; overflow:hidden;clear:both;}
+.heigth2{height:20px; line-height:0px; font-size:0; overflow:hidden;clear:both;}
+.heigth3{height:30px; line-height:0px; font-size:0; overflow:hidden;clear:both;}
+.borbox{border:1px solid #e9e9e9; background:#fff;}
+
+
+/* 创意交易 */
+.superiority{background:#fff; border:1px solid #e9e9e9; position:relative; width:258px; height:348px;}
+.superiority span{background:url(../images/task/commend.png) no-repeat 0 -99px; width:50px; height:50px; display:block; position:absolute; left:0; top:0;}
+.superiority div{position:absolute; left:20px; top:15px; width:218px; height:333px;}
+.superiority div h1{text-align:center; font-size:40px; font-weight:500; line-height:60px; font-family:"微软雅黑";}
+.superiority div h3{text-align:center; font-size:20px; font-weight:500; line-height:30px; font-family:"微软雅黑"; padding-bottom:15px;}
+.superiority div dl{background:url(../images/task/commend.png) no-repeat -108px -97px; height:40px;font-size:12px; padding-left:40px;margin-top:10px;}
+.superiority div dl dt{font-weight:bold; line-height:20px; height:20px; overflow:hidden;}
+.superiority div dl dd{color:#999; line-height:20px; height:20px; overflow:hidden;}
+.superiority div dl.ico1{background-position:-108px -150px;}
+.superiority div dl.ico2{background-position:-108px -200px;}
+.superiority div dl.ico3{background-position:-108px -250px;}
+
+/*快速发布*/
+.rapidpost{background:#fff; border:1px solid #d9d9d9;}
+.rapidpost h3{font-size:20px; font-family:"微软雅黑"; padding-left:20px; height:30px; line-height:30px; padding-top:15px;}
+.rapidpost u{padding-left:20px; height:25px; line-height:25px; border-bottom:1px dashed #aaa; padding-bottom:10px; display:block; color:#999;}
+.rapidpost ul{padding:10px 25px;}
+.rapidpost ul li{display:block; padding:5px 0; position:relative;}
+.rapidpost ul li .valid_success { position:absolute; right:-10px; top:10px;}
+.rapidpost ul li.txt{background:url(../images/task/round.jpg) no-repeat 0 center; height:25px; line-height:25px; display:block; padding-left:25px; font-weight:bold;}
+.rapidpost ul li input{height:33px; line-height:33px; width:204px; padding:0 3px; border:1px solid #dfdfdf; color:#666;}
+.rapidpost ul li input.disa{color:#A6A6A6; background:#dedede; border:1px solid #bababa;}
+.rapidpost ul li.code{height:25px; padding-bottom:10px;}
+.rapidpost ul li.code input{width:auto !important; cursor:default; line-height:18px;}
+.rapidpost ul li.code input.red{background:#ec2828; color:#fff; cursor:pointer;}
+.rapidpost ul li.txtcode input{width:60px !important;}
+.rapidpost ul li.txtcode img{vertical-align:middle; margin-left:5px;}
+.rapidpost ul li.txtcode span.refresh{ background:url(../images/common/refresh.png) no-repeat 0 bottom; width:20px; height:14px; display:inline-block; margin-left:4px; cursor:pointer; vertical-align:middle; filter: Alpha(Opacity=70);Opacity:0.7; }
+.rapidpost ul li.txtcode span:hover.refresh{filter: Alpha(Opacity=100);Opacity:1;}
+
+.rapidpost ul li.btn{height:35px; padding-bottom:10px;}
+.rapidpost ul li.btn button{width:210px; height:35px; text-align:center; font-size:14px; font-weight:bold; color:#fff; background:#ec2828; display:inline-block;}
+.rapidpost ul li select{width:222px;}
+.chzn-container-single .chzn-single{height:33px !important; line-height:33px !important;}
+.chzn-container-single .chzn-single span{color:#999;}
+.chzn-container-single .chzn-search input{padding:0 20px 0 5px !important;}
+.chzn-container .chzn-results li{height:20px !important; line-height:20px !important;}
+
+/*移动二维码*/
+.yddownload{border:1px solid #e9e9e9; background:#fff; padding:30px 20px;}
+.yddownload ul{height:55px; background:url(../images/task/mobile.jpg) no-repeat 0 center; padding-left:55px;}
+.yddownload ul ol{height:25px; line-height:25px; font-size:14px; font-weight:bold;}
+.yddownload ul li{height:20px; line-height:20px; color:#999;}
+.yddownload b{height:35px; padding-top:15px; display:block; clear:both;}
+.yddownload b a{width:210px; height:35px; line-height:35px; display:block; background:#EC2828; text-align:center; color:#fff; margin:0 auto; border-radius:2px;}
+.yddownload b a:hover{background:#fd3939;}
+
+.yddownload dl{clear:both; padding:15px 0 0 0;}
+.yddownload dd{float:left; width:88px; height:118px; padding:0 10px;}
+.yddownload dd span{height:25px; line-height:25px; padding-top:5px; text-align:center; display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+/*邮件订阅*/
+.emaildy{padding:25px 15px;}
+.emaildy ul{height:45px; background:url(../images/task/email.jpg) no-repeat 0 center; padding-left:55px;}
+.emaildy ul ol{height:25px; line-height:25px; font-size:14px; font-weight:bold;}
+.emaildy ul li{height:20px; line-height:20px; color:#999;}
+.emaildy span{height:30px; width:220px; margin:0 auto; background:url(../images/task/emaildy.jpg) no-repeat 0 15px; display:block; padding-top:15px;}
+.emaildy span span{padding-top:0;width:140px; background:none; position:inherit !important; margin-left:-180px !important;}
+.emaildy span .input{width:140px; height:30px; line-height:30px; border:none; background:transparent; padding:0 0 0 30px; float:left; color:#666;}
+.emaildy span .button{width:44px; height:30px; background:transparent; border:none; cursor:pointer; margin:0; float:left;}
+/*微博*/
+.weibo ul{clear:both; border-bottom:1px solid #e9e9e9; height:70px; padding:15px 20px;}
+.weibo ul span{float:left; width:70px; height:70px; display:block;}
+.weibo ul ol{float:right; width:130px; height:30px; line-height:30px; font-weight:bold; font-size:14px;}
+.weibo ul li{height:25px; line-height:25px; float:right; width:130px; padding-top:5px;}
+.weibo ul li a{background:#666666; color:#fff; text-align:center; width:80px; height:25px; line-height:25px; display:inline-block;}
+.weibo ul li a:hover{background-color:#333;}
+
+.weibo dl{clear:both; height:75px; padding:15px 20px;}
+.weibo dl span{float:left; width:70px; height:70px; display:block; padding-top:3px;}
+.weibo dl dt{float:right; width:130px; height:25px; line-height:25px; font-weight:bold; font-size:14px;}
+.weibo dl dd{height:45px; line-height:25px; float:right; width:130px;}
+.weibo dl dd b{font-weight:normal; display:block; height:20px; line-height:20px; color:#999;}
+.weibo dl dd a{background:#666666; color:#fff; text-align:center; width:80px; height:25px; line-height:25px; display:inline-block;}
+.weibo dl dd a:hover{background-color:#333;}
+
+/*广告*/
+.talent_straig_list li{height:auto; width:260px; padding:10px 0;}
+.talent_straig_list li img{width:260px;}
+.talent_straig_list span{border:1px dashed #e9e9e9; background:#fff; display:block; text-align:center; height:120px;}
+.talent_straig_list span b{font-size:14px;padding-top:15px; display:block;}
+.talent_straig_list span a{height:40px; line-height:40px; font-weight:bold; width:210px; margin:0 auto; background:#ec2828; color:#fff; display:block; border-radius:2px;}
+.talent_straig_list span a:hover{background:#fd3939;}
+
+/*标题块*/
+.bar_title{background:url(../images/task/bars.png) repeat-x 0 -50px; height:40px; line-height:40px; padding:0 15px;}
+.bar_title b{float:left; font-size:14px;}
+.bar_title span{float:right;}
+
+
+/*seo*/
+.seolistbox{border-top:2px solid #ff6600; border-left:1px solid #e9e9e9; border-right:1px solid #e9e9e9; border-bottom:1px solid #e9e9e9; background:#fff; padding:5px 15px;}
+.seolist{border-bottom:1px solid #f4f4f4; padding:15px 0; color:#666;}
+.seolist_l{float:left; width:120px; line-height:25px;}
+.seolist_r{float:right; width:768px;}
+.seolist_r q{line-height:20px;}
+.seolist_r a{line-height:25px; padding:0 5px; margin-right:5px; white-space:nowrap; color:#666; float:left;}
+.seolist_r a:hover{color:#e4393c;}
+.seolist_r a.sq{color:#06c; text-decoration:underline;}
+
+
+.posttask{background:#fff; border:1px solid #e9e9e9; padding:15px 30px; height:70px;}
+.posttask ol{font-size:16px; font-weight:bold; line-height:28px; padding-top:12px;}
+.posttask li{line-height:20px; color:#999;}
+.posttask a{width:210px; height:40px; line-height:40px; text-align:center; color:#fff; font-size:14px; background:#EC2828; font-weight:bold; display:inline-block; margin:15px 20px 0 0; border-radius:2px;}
+.posttask a:hover{ margin:17px 20px 0 0;}

@@ -1,0 +1,14 @@
+K 14
+bugtraq:number
+V 4
+true
+K 10
+svn:ignore
+V 51
+dwsync.xml *.LCK *.mno dwSiteColumnsAll.xml _notes
+
+K 14
+tsvn:autoprops
+V 27
+“* = svn:needs-lock=x” 
+END

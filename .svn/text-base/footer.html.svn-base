@@ -1,0 +1,85 @@
+<div class="footer">
+  <div class="container"><span class="ccc"><a href="">首页</a>&nbsp;|&nbsp;<a href="">关于我们</a>&nbsp;|&nbsp;<a href="">新闻中心</a>&nbsp;|&nbsp;<a href="">支付方式</a>&nbsp;|&nbsp;<a href="">联系方式</a>&nbsp;|&nbsp;<a href="">客服中心</a>&nbsp;|&nbsp;<a href="">我也要和一品合作</a>&nbsp;|&nbsp;<a href="">人才招聘</a>&nbsp;|&nbsp;<a href="">网站地图</a></span><br>
+    <div class="pt_10">Copyright ©  2010-2014 www.epweike.com 一品威客网络科技有限公司版权所有  备案：闽ICP备12001463号 站长统计</div>
+    <div class="pt_10"> <a target="_blank" title="厦门市网络警察" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=http://www.xiamen.cyberpolice.cn/">
+      <img src="http://www.epweike.com/tpl/default/theme/simple/img/index/001.png" original-title="">
+      </a> <a target="_blank" title="福建省网络工商" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=http://www.fjaic.gov.cn/">
+      <img src="http://www.epweike.com/tpl/default/theme/simple/img/index/002.png" original-title="">
+      </a> <a target="_blank" title="支付宝合作商家" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=https://www.alipay.com">
+      <img src="http://www.epweike.com/tpl/default/theme/simple/img/index/003.png" original-title="">
+      </a> <a target="_blank" title="中国银联合作商家" rel="nofollow" href="http://www.epweike.com/redirect.php?goto=http://cn.unionpay.com/">
+      <img src="http://www.epweike.com/tpl/default/theme/simple/img/index/004.png" original-title="">
+      </a> <a target="_blank" title="可信网站" rel="nofollow" href="https://ss.knet.cn/verifyseal.dll?sn=e12081735020034979308175&comefrom=trust&trustKey=dn&trustValue=www.epweike.com">
+      <img src="images/common/005.jpg" original-title="">
+      </a> <a target="_blank" title="可信网站" rel="nofollow" href="http://www.cunnar.com/">
+      <img src="images/common/006.jpg" original-title="">
+      </a> </div>
+  </div>
+</div>
+<!--在线客服浮动bing-->
+<div id="rightToolbar">
+  <div class="tooltop">
+    <img src="http://www.epweike.com/resource/img/style/tophead.png">
+  </div>
+  <div class="toolposit">
+    <div class="toolmin"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=4006999467&amp;site=qq&amp;menu=yes" class="tool_ico qqtool"></a> </div>
+    <div class="toolmin"> <a href="javascript:;" class="tool_ico phonetool"></a>
+      <div class="toolcontbox">
+        <span class="toolarr"></span>
+        <div class="toolcont">
+        <div class="tooltxt">
+          <h3>4006-999-467<i>(免费长途电话)</i></h3>
+          <span>您还可以拨打：0592-6301977</span>
+          <span>或留下联系方式，我们主动联系您</span>
+          <q><input type="text" maxlength="50" class="tx c333" name="nums" id="nums" placeholder="手机号/QQ号" size="30" original-title=""></q>
+          <samp><button id="quick_secretary_btn" type="button" class="button">立即提交</button></samp>
+          <div class="clear"></div>
+        </div>
+      </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="toolmin"> <a href="http://www.epweike.com/review.html" class="tool_ico liuyantool"></a> </div>
+    <div class="toolmin"> <a href="http://www.epweike.com/vip/" class="tool_ico qqtoolvip"></a> </div>
+    <div class="toolmin backtop" id="goTopBtn" style="display:none;"> <a href="javascript:;" title="返回顶部" class="tool_ico backtoptool"></a> </div>
+  </div>
+</div>
+<!--在线客服浮动end--> 
+<!--[if lt IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+<script>
+DD_belatedPNG.fix('.touming,img'); 
+DD_belatedPNG.fix('.ico_serch,background'); 
+// <![CDATA[
+if((window.navigator.appName.toUpperCase().indexOf("MICROSOFT")>=0)&&(document.execCommand))
+try{
+document.execCommand("BackgroundImageCache", false, true);
+}
+catch(e){}
+ // ]]>
+</script>
+<![endif]--> 
+<!--每个页面下现有的一些全局变量声明，参考现有页面--> 
+<script type="text/javascript">
+var http_host = window.location.host;
+var SITEURL		= "http://"+http_host+"/";
+var IMGURL		= "http://"+http_host+"/";
+var CSSURL		= "http://"+http_host+"/";
+var JSURL		= "http://"+http_host+"/";
+var SKIN_PATH	= 'tpl/default';
+var LANG		= 'cn';
+var INDEX		= 'index';
+var CHARSET		= "utf-8";
+var FORMHASH    = "";  
+var request_uri = "/";
+var ModelWeb = true;
+var sign_bz=0;
+</script> 
+<!--每个页面下现有的一些全局变量声明 结尾-->
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/in.js"></script>
+<script type="text/javascript" src="js/common.js"></script> 
+<script>
+In.add('uistyle',{path:cdn_resource(JSURL+'js/uistyle.js'),type:'js',charset:'utf-8'});
+In("uistyle");
+</script> 

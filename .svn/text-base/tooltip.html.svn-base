@@ -1,0 +1,27 @@
+<style>
+#bubble .pos_detail{ background:#fff; color:#333; width:400px; line-height:20px;padding:20px;}
+#bubble .pos_detail  a.c06c:hover { color:#eb2626;}
+#bubble .spucont { padding-left:60px;}
+#bubble .bubl_tags span { display:inline-block; border:1px solid #dfdfdf; background:#f4f4f4; border-radius:15px; margin-right:10px; margin-bottom:10px; padding:0 10px;}
+</style>
+<div class="pos_detail">
+	<div class="clearfix mb_10">
+		<div class="f_l mr_10">
+			<img src="images/task/padweke.jpg">
+		</div>
+		<div class="spucont">
+			<a class="f_r c06c" href="">收藏商铺</a>
+			<div class="mb_5"><a class="c06c" href=""><strong>张三丰</strong></a><i class="iico">公司</i><i class="iico bgred">VIP白金</i><i class="iico">八品</i></div>
+			<div class="mb_5">TA的商铺：<a class="c06c" href="">千山鸟飞绝万径人踪灭公司</a></div>
+			<!--未开通商铺的情况-->
+			<!--<div class="mb_5">TA的商铺：<span class="c999">暂未开通</span>&nbsp;&nbsp;<a class="c06c" href="">让雇主更好认识你，赶紧开通商铺吧！</a></div>-->
+			<div class="f_r c666">服务：（<a class="c06c" href="">29</a>）&nbsp;&nbsp;案例：（<a class="c06c" href="">34</a>）</div>
+			<a class="button red" href="">雇佣TA</a>&nbsp;&nbsp;<a class="button" href="">联系TA</a>
+		</div>
+	</div>
+	<div class="mb_10">TA交易：<span class="ceb2">8</span>次&nbsp;&nbsp;总收入：<span class="ceb2">￥20287</span>&nbsp;&nbsp;好评率：<span class="ceb2">80%</span></div>
+	<div class="bubl_tags">
+		TA擅长：<span>广告设计</span><span>广告设计</span><span>广告设计</span><span>广告设计</span><span>广告设计</span><span>广告设计</span><span>广告设计</span><span>广告设计</span>
+	</div>
+	<div class="clear"></div>
+</div>

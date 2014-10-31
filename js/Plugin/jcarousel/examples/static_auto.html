@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jCarousel实例</title>
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<!--
+  jQuery library
+-->
+<script type="text/javascript" src="../lib/jquery-1.2.3.pack.js"></script>
+<!--
+  jCarousel library
+-->
+<script type="text/javascript" src="../lib/jquery.jcarousel.pack.js"></script>
+<!--
+  jCarousel core stylesheet
+-->
+<link rel="stylesheet" type="text/css" href="../lib/jquery.jcarousel.css" />
+<!--
+  jCarousel skin stylesheet
+-->
+<link rel="stylesheet" type="text/css" href="../skins/tango/skin.css" />
+
+<script type="text/javascript">
+
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 2000,
+        wrap: 'last',
+		scroll:1,
+        initCallback: mycarousel_initCallback
+    });
+});
+
+</script>
+</head>
+<body>
+
+<div id="wrap">
+  <h1>jCarousel</h1>
+  <h2>jQuery下的滚动切换传送插件</h2>
+
+  <h3>自动滚动的传送切换</h3>
+  <p>
+    内部设定为没<code>2</code>秒钟滚动一次。当鼠标移到图片上或点击“往前”“往后”按钮shit停止自动滚动。<code>wrap</code>设为<code>&quot;last&quot;</code>.
+  </p>
+
+  <ul id="mycarousel" class="jcarousel-skin-tango">
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+    <li><img src="../../../../images/myhome/b03533fa828ba61e2226d8c94334970a314e590f.jpg" width="75" height="75" alt="" /></li>
+  </ul>
+
+</div>
+</body>
+</html>
+

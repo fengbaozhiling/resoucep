@@ -1,0 +1,33 @@
+<h3 class="flb"><em>向他提问</em><span><a title="关闭" onclick="hideMenu('fwin_dialog', 'dialog')" class="flbc" id="fwin_dialog_close" href="javascript:;">关闭</a></span></h3>
+<div id="askElbox" class="grabg">
+	<div id="askdoc">
+		<div class="dctou"> <a id="info_logo" target="_blank" href="http://qd.xtuan.com/48866/"> <img width="60" height="60" src="http://pic1.xtuan.com/upload/decoration/logo/20140211/10180093352_100x100.jpg"> </a> </div>
+		<div class="zytpmd"> <a id="info_name" target="_blank" href="http://qd.xtuan.com/48866/">青岛威廉装饰工程有限公司</a>
+			<p><span id="answerNum">回答数：85</span><br>
+				<span id="adopt">采纳率：1.17%</span></p>
+		</div>
+	</div>
+	<p id="tip_content" class="w_text">告诉青岛威廉装饰工程有限公司您的装修困扰</p>
+	<form onsubmit="" method="post" name="form1" id="questionSubmits">
+		<p>问题分类：
+			<select onchange="checkCate(this)" class="btype" name="catePid">
+				<option value="0">-选择问题类别-</option>
+				<option value="703">家装设计</option>
+				<option value="725">装修流程</option>
+				<option value="738">家居产品</option>
+				<option value="758">装饰材料</option>
+				<option value="770">公装设计</option>
+			</select>
+			&nbsp;&nbsp;
+			<select id="cateID" name="cateID">
+				<option value="0">-不做选择-</option>
+			</select>
+		</p>
+		<p></p>
+		<textarea name="title" placeholder="提问的越详细，回答的越清楚哦" class="advtxt"></textarea>
+		<p></p>
+		<input type="button" onclick="" value="提交问题" class="advsb_btn">
+		<input type="hidden" value="259403" name="askMemberID">
+		<input type="hidden" value="1" name="memberType">
+	</form>
+</div>

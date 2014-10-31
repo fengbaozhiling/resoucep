@@ -1,0 +1,739 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>用户中心</title>
+<meta charset="utf-8" />
+<meta name="keywords" content="威客，威客网，免费威客网，中国威客网，威客任务，威客网络兼职，任务中国，一品威客网" />
+<meta name="description" content="一品威客网是中国首家全免费威客平台，是威客和雇主最信赖的威客网站，中国最有价值的创意交易平台,提供LOGO设计、包装设计、平面设计、微博营销、网店推广、论坛推广、网站建设、装修设计、宝宝起名、广告语征集等创意交易类威客任务，是继猪八戒威客网之后领先新型威客网站！" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="copyright" content="" />
+<meta name="chinaz-site-verification" content="081e7651-48c6-4c2f-a569-99321685eab1" />
+<link rel="shortcut icon" type="image/ico" href="http://img11.epweike.net/resource/img/system/logo.ico" />
+<link rel="apple-touch-icon" href="http://img11.epweike.net/resource/img/system/logo.ico" />
+<script type="text/javascript">
+var SITEURL		= "http://www.epweike.net";
+var SKIN_PATH	= 'tpl/default';
+var LANG		= 'cn';
+var INDEX		= 'user';
+var CHARSET		= "utf-8";
+var FORMHASH    = "";  
+var request_uri = "/index.php?do=user&amp;view=finance&amp;op=withdraw&amp;ver=1";
+var http_host = "www.epweike.net";
+</script>
+<link rel="stylesheet" type="text/css" href="http://img10.epweike.net/resource/css/reset.css?ver=1" />
+<!--公用样式-->
+<link rel="stylesheet" type="text/css" href="http://img10.epweike.net/resource/css/base.css?ver=1" />
+<!--box样式-->
+<link rel="stylesheet" type="text/css" href="http://img10.epweike.net/resource/css/box.css?ver=1" />
+<!--布局样式-->
+<link rel="stylesheet" type="text/css" href="http://img10.epweike.net/resource/css/layout/layout.css?ver=1" />
+<link rel="stylesheet" type="text/css" href="http://img13.epweike.net/tpl/default/css/common.css?ver=1" />
+<link rel="stylesheet" type="text/css" href="http://img10.epweike.net/tpl/default/theme/simple/css/newsimple_style2013.css?ver=1" />
+<link rel="stylesheet" type="text/css" href="http://img13.epweike.net/tpl/default/theme/simple/css/button/stylesheets/css3buttons.css?ver=1" />
+<link rel="stylesheet" type="text/css" href="http://img10.epweike.net/tpl/default/theme/simple/css/style2013.css?ver=1" />
+<link rel="stylesheet" type="text/css" href="http://img13.epweike.net/resource/js/jqplugins/tipsy/tipsy.css?ver=1" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://img13.epweike.net/resource/css/layout/960.min.css?ver=1" /><script type="text/javascript" src="http://img11.epweike.net/resource/js/system/html5.js?ver=1"></script><![endif]-->
+<script type="text/javascript" src="http://img11.epweike.net/resource/js/jquery.js?ver=1"></script><script type="text/javascript" src="http://img10.epweike.net/resource/js/system/keke.js?ver=1"></script><script type="text/javascript" src="http://img11.epweike.net/resource/js/in.js?ver=1"></script><script type="text/javascript" src="http://img10.epweike.net/resource/js/custom-form-elements.js?ver=1"></script><script type="text/javascript" src="http://img10.epweike.net/tpl/default/js/newsimple2013.js?ver=1"></script><script type="text/javascript" src="http://img14.epweike.net/tpl/default/js/uiset2013.js?ver=1"></script><script type="text/javascript" src="http://img11.epweike.net/resource/js/common.js?ver=1"></script><script type="text/javascript" src="http://img10.epweike.net/resource/js/md5.js?ver=1"></script>
+</head>
+<body>
+<div id="note"></div>
+<a id="pageTop"></a> 
+<!--[if IE 8]><div id="ie8"><![endif]--> 
+<!--[if IE 7]><div id="ie7"><![endif]--> 
+<!--[if IE 6]><div id="ie6"><![endif]-->
+<div class="simple_style" id="wrapper">
+	<div id="append_parent"></div>
+	<div id="ajaxwaitid">
+		<div><img src="http://img10.epweike.net/tpl/default/theme/simple/img/system/loading.gif" alt="loading"/>请求处理中...</div>
+	</div>
+	
+	<!--无刷新临时替换层-->
+	<div id="noflushwarper">
+		<div id="noflushwarper_sub"></div>
+	</div>
+	<!--顶部部分 start-->
+	<div id="toptoolbar" class="message tool clearfix">
+		<div class="container_24">
+			<div class="fl_l" id="index_r_bar"> <span class="pl_5 pr_10"><a class="s_lz red" href="http://www.epweike.net/zt/APPS/android/" target="_blank"><img style="vertical-align:-2px;" src="http://img13.epweike.net/tpl/default/theme/simple/img/system/ico-12x150_new.gif" alt="中国领先的新型创意服务交易平台"/>手机版&nbsp;|&nbsp;</a>中国领先的新型创意服务交易平台</span> <a href="http://www.epweike.net/index.php?do=login" class="ea5e00" >请登录</a> <a href= "http://www.epweike.net/index.php?do=register" class="ea5e00">免费注册</a> </div>
+			<div class="fl_r link po_re"> <span id="nav_pull1" class="po_re"> <a  href="http://www.epweike.net" class="pl_5 pr_5">一品威客首页</a> </span> <em class="lines"></em> <span id="nav_pull2" class="po_re"> <a  href="http://www.epweike.net/index.php?do=user&view=space" class="pl_5 pr_5">商铺管理<span>▼</span></a>
+				<div class="option t_l clearfix hidden">
+					<div class="title_again"> <a  href="http://www.epweike.net/index.php?do=user&view=space">商铺管理<span>▼</span></a> </div>
+					<dl>
+						<dt>商铺管理</dt>
+						<dd>
+							<ul class="float clearfix">
+								<li><a href="http://www.epweike.net/index.php?do=user&view=space" target="_blank" rel="nofollow">开通商铺</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				</span> <em class="lines" id="add_nav_aj"></em> <span id="nav_pull3" class=" po_re"> <a href="http://www.epweike.net/release.html" class="pl_5 pr_5 cf60 font12b">发布任务</a> </span> <em class="lines"></em> <span id="nav_pull4" class="po_re"> <a href="javascript:void(0);" class="pl_5 pr_5">导航<span>▼</span></a>
+				<div class="option_two t_l hidden">
+					<div class="title_again "> <a  href="javascript:void(0);">导航<span>▼</span></a> </div>
+					<dl>
+						<dt>导航</dt>
+						<dd>
+							<h2 class="border_b_c c06c">雇主服务</h2>
+							<ul class="release_task clearfix">
+								<li><a href="http://www.epweike.net/release.html">发布任务</a></li>
+								<li><a href="http://www.epweike.net/talent/">找人才</a></li>
+								<li><a href="http://www.epweike.net/user-view-finance-op-recharge.html" rel="nofollow">我要充值</a></li>
+								<li><a href="http://www.epweike.net/help/callfuwu.html">客服中心</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=user&view=employer&op=credit&opp=grow">信誉等级</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=user&view=employer&op=invoice&opp=apply">发票管理</a></li>
+							</ul>
+							<h2 class="border_b_c c06c">威客服务</h2>
+							<ul class="release_task clearfix">
+								<li><a href="http://www.epweike.net/task/">任务大厅</a></li>
+								<li><a href="http://www.epweike.net/user-view-space.html" rel="nofollow">商铺管理</a></li>
+								<li><a href="http://www.epweike.net/user-view-finance-op-withdraw.html" rel="nofollow">我要提现</a></li>
+								<li><a href="http://www.epweike.net/vip/">VIP商铺</a></li>
+								<li><a href="http://www.epweike.net/redirect.php?goto=http://sucai.epweike.com/">一品素材</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=user&view=witkey&op=credit&opp=grow">能力等级</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=integrity">诚信保障</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=user&view=witkey&op=toolbox">工具箱</a></li>
+							</ul>
+							<h2 class="border_b_c c06c">特色服务</h2>
+							<ul class="release_task clearfix">
+								<li><a href="http://www.epweike.net/review.html" rel="nofollow">一句话点评</a></li>
+								<li><a href="http://www.epweike.net/zt/">精彩专题</a></li>
+								<li><a href="http://www.epweike.net/zt/qtzt/ppfzjh-01/">创意包</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=polymeric">vip之家</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=gonglue">攻略</a></li>
+								<!--<li><a href="http://www.epweike.net/brand-view-taiwan.html">台湾馆</a></li>-->
+								<li><a class="cea5" href="http://www.epweike.net/map.html">网站地图</a></li>
+								<li><a href="http://www.epweike.net/match/">创意大赛</a></li>
+								<li><a href="http://www.epweike.net/redirect.php?goto=http://www.kubeijie.com/">酷贝街</a></li>
+								<li><a href="http://www.epweike.net/zt/APPS/android/">APP</a></li>
+								<li><a href="http://www.epweike.net/prom/">推广员</a></li>
+								<li><a href="http://s.epweike.com">一品社区</a></li>
+								<li><a href="http://www.epweike.net/index.php?do=brand_concur">品牌合作</a></li>
+								<li><a class="cea5" href="http://dm.epweike.com/">动漫馆</a></li>
+								<li><a class="cea5" href="http://gongye.epweike.com/">工业馆</a></li>
+								<li><a href="http://ask.epweike.net/">问答中心</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				</span> <em class="lines"></em> <a href="http://www.epweike.net/help/bang/" class="pl_5 pr_5 rel">帮助中心</a> <em class="lines"></em> <!--<a href="http://www.epweike.net/prom/" class="pl_5 pr_5 rel">推广员</a> <em class="lines"></em> --><span class="po_re"> <a  href="javascript:void(0);" class="pl_5 pr_5 rel" name="StranLink" id="StranLink">繁体版</a> 
+				<script type="text/javascript" src="http://img10.epweike.net/resource/js/system/Std_StranJF.Js?ver=1"></script></span> </div>
+		</div>
+		<div class="transprentbg"></div>
+	</div>
+	<!--顶部部分 end-->
+	<div class="t_c"> </div>
+	<script>
+var username = getcookie('username');
+
+if ( username ) {
+var uid = parseInt("648600")+0;
+load_header_top();
+}
+</script> 
+	<!--头部 start-->
+	<header class="header">
+		<div class="container_24 topserchebox clearfix"> 
+			<!--logo start-->
+			<hgroup class="logo"> <a href="http://www.epweike.net/" class="fl_l logoimg"><img src="http://img11.epweike.net/tpl/default/theme/simple/img/style/logo_sy.gif"></a>
+				<div class="fl_l line"> </div>
+				<a class="little_logo fl_l" href="http://www.epweike.net/index.php?do=user">
+				<h2>用户中心</h2>
+				</a> </hgroup>
+			<!--logo end-->
+			<div class="fl_r pt_20">
+				<div class="search_bigbox ov_hide"> 
+					<!--主搜索 start-->
+					<div class="clearfix">
+						<div class="search clearfix po_re"> 
+							<!--搜索框和选项 start-->
+							<form action="http://www.epweike.net/index.php" method="post" id="frm_topsearch" class="clearfix fl_l">
+								<input type="hidden" name="topsearch_type" id="topsearch_type" value="task_list">
+								<div class="search_box"> <span class="icon magnifier"></span>
+									<input type="text" name="k" id="search_key" class="fl_l search_input txt_input c999" value="输入关键词搜索" onblur="if(this.value==''){this.value='输入关键词搜索'};" autocomplete="off" onfocus="if(this.value=='输入关键词搜索'){this.value=''};" x-webkit-speech x-webkit-grammar="bUIltin:search" lang="zh-CN">
+								</div>
+							</form>
+							<!--搜索框和选项 end--><!--搜索提交 start-->
+							<div class="fl_l mr_5">
+								<button class="search_btn" id="topsearch_btn" type="button"> <span class="icon magnifier"></span> </button>
+							</div>
+							<!--搜索提交 end--> 
+						</div>
+						<div class="serchdream">
+							<div class="serccatgory">
+								<div id="search_task" class="sercaxy">在<strong>任务列表：</strong>找<span class="dercatext"></span></div>
+								<div id="search_user" class="sercaxy">在<strong>人才列表：</strong>找<span class="dercatext"></span></div>
+							</div>
+						</div>
+					</div>
+					<!--主搜索 end--> 
+				</div>
+				<div id="menberEnter" class="logintool fl_l clearfix">
+					<div class="logintolinner fl_l">
+						<div class="loginlitb_name">
+							<div class="loginlitb_topname"> <span class="icoaraw">&nbsp;</span> <img src="http://img14.epweike.net/tpl/default/theme/simple/img/2013/defalheid.jpg" alt="会员登录" />会员登录 </div>
+							<div class="loginlitb_box" style="display:none;"> 
+								<!--未登录 开始-->
+								<form action="http://www.epweike.net/index.php?do=login" method="post" id="login_frm" name="login_frm">
+									<input type="hidden" name="formhash" id="formhash" value="c95397">
+									<input type="hidden" name="handlekey" value="login_frm1">
+									<!--账号-->
+									<input type="hidden" name="logins" id="logins" value='0'>
+									<span id="span_msg_tip" class="c999"></span>
+									<div class="logintilform">
+										<ul>
+											<li class="po_re clearfix"><em>账户：</em>
+												<input class="lgtxt txt_input c999" type="text"  size="20"  tmp="login_account1" autocomplete="off" name="txt_account" onclick="$(this).removeClass('c999')" id="txt_account1" caseon="submit" limit="required:true" msg="用户名不得为空" value=""  msgArea="span_msg_tip" />
+												<label class="logintxt" for="txt_account1" unselectable="none" onselectstart="return false;"> 用户名/手机号/邮箱 </label>
+											</li>
+											<li class="po_re clearfix"><em>密码：</em>
+												<input class="lgtxt txt_input c999" type="password"  tmp="login_password1" name="pwd_password" id="pwd_password" maxlength="20" caseon="submit" limit="required:true;len:2-20" msg="密码长度应为6-20位"  msgArea="span_msg_tip" />
+												<label class="logintxt" for="pwd_password" unselectable="none" onselectstart="return false;"> 密码长度应为6-20位 </label>
+											</li>
+											<li><em>&nbsp <span id="loginwait" style="display:none;"><img src="http://img10.epweike.net/tpl/default/theme/simple/img/style/loginwait.gif" alt="请稍等，正在努力为您登录" /></span></em>
+												<button class="primary mr_5 submit" type="button" onclick="return user_login();">登　录</button>
+												<a class="c06c" href="http://www.epweike.net/index.php?do=help&view=get_password" target="_blank">忘记密码？</a></li>
+										</ul>
+										<div class="logintother clearfix">
+											<p>使用合作网站账号登录:</p>
+											<a style="background-position:0 0;" href="http://www.epweike.net/index.php?do=oauth_login&type=qq" rel="nofollow" target="_blank" title="QQ">&nbsp;</a> <a style="background-position:0 -16px;" href="http://www.epweike.net/index.php?do=oauth_login&type=sina" rel="nofollow" title="新浪微博">&nbsp;</a> <a style="background-position:0 -32px;" href="http://www.epweike.net/index.php?do=oauth_login&type=renren" rel="nofollow" title="人人网">&nbsp;</a> <a style="background-position:0 -48px;" href="http://www.epweike.net/index.php?do=oauth_login&type=netease" rel="nofollow" title="网易">&nbsp;</a> <a style="background-position:0 -96px;" href="http://www.epweike.net/index.php?do=oauth_login&type=douban" rel="nofollow" title="豆瓣">&nbsp;</a> </div>
+									</div>
+								</form>
+								<script type="text/javascript" src="http://img10.epweike.net/tpl/default/js/loginjs.js?ver=1"></script><!--未登录 结束--> 
+							</div>
+						</div>
+					</div>
+					<a class="albotton fl_r" href="http://www.epweike.net/index.php?do=register" target="_self">免费注册</a> </div>
+			</div>
+		</div>
+	</header>
+	<!--头部 end--> 
+	<script>load_header_right();</script><!--contain start-->
+	<div class="wrapper">
+		<div class="container_24">
+			<link rel="stylesheet" href="http://www.epweike.net/tpl/default/theme/simple/css/user_center.css">
+			<link rel="stylesheet" href="http://www.epweike.net/tpl/default/css/user_center.css">
+			<header class="page_title clearfix hidden  Anchor">
+				<div class="grid_17">
+					<h2 class="title">用户中心</h2>
+				</div>
+				<div class="grid_7 ">
+					<div class="user_info">
+						<div class="fl_l mr_10">
+							<p> <img src='http://www.epweike.net/data/avatar/system/8_small.jpg' uid='648600' class='pic_small'> </p>
+						</div>
+						<ul class="intor">
+							<li> 欢迎您，hua001 </li>
+							<li> <strong class="cf60">￥787554.276</strong> 现金 | <strong><a href="http://www.epweike.net/index.php?do=user&view=message"> 条消息</a></strong> </li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<div class="pb_10">
+				<nav class="primary_nav box clearfix"> <a name="userCenter"></a>
+					<ul>
+						<li> <a href="http://www.epweike.net/index.php?do=user&view=setting" ><span class="icon32 cog">账号设置</span><em>账号设置</em></a> </li>
+						<li> <a href="http://www.epweike.net/index.php?do=user&view=employer" ><span class="icon32 buyer">我是雇主</span><em>我是雇主</em></a> </li>
+						<li> <a href="http://www.epweike.net/index.php?do=user&view=witkey" ><span class="icon32 seller">我是威客</span><em>我是威客</em></a> </li>
+						<li> <a href="http://www.epweike.net/index.php?do=user&view=message" ><span class="icon32 sound-high">消息管理</span><em>消息管理</em></a> </li>
+						<li class="fl_r"> <a href="http://www.epweike.net/index.php?do=user&view=finance" class="selected"><span class="icon32 chart-line2">我的账本</span><em>我的账本</em></a> </li>
+						<li  class="fl_r"> <a href="http://www.epweike.net/index.php?do=user&view=space" rel="nofollow" ><span class="icon32 ">商铺管理</span><em>商铺管理</em></a> </li>
+						<li class="fl_r"> <a href="http://www.epweike.net/index.php?do=release"><span class="icon32 ">发布任务</span><em>发布任务</em></a> </li>
+					</ul>
+				</nav>
+				<div class="shortcut clearfix">
+					<ul>
+						<li> 快捷操作：<a  href="http://www.epweike.net/index.php?do=user&view=space&op=skill"> 设置我的技能标签</a> </li>
+						<li> <a href="http://www.epweike.net/index.php?do=user&view=setting&op=basic"> 完善我的个人资料</a> </li>
+						<li> <a href="http://www.epweike.net/index.php?do=user&view=setting&op=auth"> 完成我的账号认证</a> </li>
+						<li> <a href="http://www.epweike.net/index.php?do=vip&view=open"> 升级商铺，获得更多特权</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--main start-->
+			<section class="clearfix section"> 
+				<!--用户中心样式-->
+				<div class="second_menu ">
+					<div class="box default">
+						<div class="inner">
+							<header class="box_header clearfix">
+								<h2 class="box_title">财务管理</h2>
+							</header>
+							<div class="box_detail">
+								<nav class="minor_nav clearfix">
+									<ul class="clearfix">
+										<li> <a href="javascript:void(0)" title="财务明细"> <span class="iconsidbar less_list"></span><strong>财务明细</strong> </a>
+											<ul class="clearfix">
+												<li > <a href="http://www.epweike.net/index.php?do=user&view=finance&op=detail"  title="收支明细">收支明细</a> </li>
+												<li > <a href="http://www.epweike.net/index.php?do=user&view=finance&op=detail&action=charge"  title="充值记录">充值记录</a> </li>
+												<li > <a href="http://www.epweike.net/index.php?do=user&view=finance&op=detail&action=withdraw"  title="提现记录">提现记录</a> </li>
+											</ul>
+										</li>
+										<li> <a href="http://www.epweike.net/index.php?do=user&view=finance&op=recharge" rel="nofollow"  title="账号充值"> <span class="no_list"></span> <em>账号充值</em> </a> </li>
+										<li> <a href="http://www.epweike.net/index.php?do=user&view=finance&op=withdraw" rel="nofollow" class="selected" title="账号提现"> <span class="no_list"></span> <em>账号提现</em> </a> </li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<!--一品手机端-->
+					<div class="box b_orange mt_10 clearfix po_re">
+						<div class="inner clearfix"> <a class="clearfix" href="http://www.epweike.net/zt/APPS/android/">
+							<div class="user_side_icon phone"></div>
+							<div class="box_side">
+								<h2>一品手机端</h2>
+								<span>抢单沟通 随时随地</span> </div>
+							</a> </div>
+						<span class="hire_hot"></span> </div>
+					<!--一品手机端 end--> 
+					
+					<!--雇佣任务-->
+					<div class="box b_orange mt_10 clearfix po_re">
+						<div class="inner clearfix"> <a class="clearfix" href="http://www.epweike.net/index.php?do=hire">
+							<div class="user_side_icon hire"></div>
+							<div class="box_side">
+								<h2>雇佣任务</h2>
+								<span>无抽佣 赏金不打折！</span> </div>
+							</a> </div>
+						<span class="hire_hot"></span> </div>
+					<!--雇佣任务 end-->
+					
+					<div class="box default clearfix mt_10">
+						<div class="inner clearfix">
+							<ul class="user_side_guide clearfix">
+								<li class="n_m_t clearfix"> <a class="clearfix"  href="http://www.epweike.net/zt/VIP2013/" target="_blank">
+									<div class="user_side_icon shore"></div>
+									<div class="box_side">
+										<h3>一品VIP靓铺</h3>
+										<span>品牌提升利器</span> </div>
+									</a> </li>
+								<li class="clearfix"> <a class="clearfix"  href="http://s.epweike.com/thread-18974-1-1.html" target="_blank">
+									<div class="user_side_icon nomoney"></div>
+									<div class="box_side">
+										<h3>免抽佣</h3>
+										<span>免抽佣免提现手续费</span> </div>
+									</a> </li>
+								<li class="clearfix"> <a class="clearfix"  href="http://s.epweike.com/thread-19173-1-1.html" target="_blank">
+									<div class="user_side_icon sourport"></div>
+									<div class="box_side">
+										<h3>入站威客支持</h3>
+										<span>威客入站扶持奖励</span> </div>
+									</a> </li>
+								<li class="clearfix"> <a class="clearfix"  href="http://www.epweike.net/index.php?do=review" rel="nofollow" target="_blank">
+									<div class="user_side_icon steer"></div>
+									<div class="box_side">
+										<h3>意见建议</h3>
+										<span>期待您的宝贵建议</span> </div>
+									</a> </li>
+								<li class="clearfix"> <a class="clearfix"  href="http://www.epweike.net/index.php?do=help" target="_blank">
+									<div class="user_side_icon core"></div>
+									<div class="box_side">
+										<h3>帮助中心</h3>
+										<span>疑难问题 在此化解</span> </div>
+									</a> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--威客会员中心增加弹出窗口广告  开始-->
+				<div class="certeradvers">
+					<div class="advtil">
+						<h3>8小时打通网络接单通道训练营</h3>
+						<a href="javascript:void(0)" class="closeadvers"></a></div>
+					<div class="contadvers"> 《8小时打通网络接单通道训练营》招募学员啦！<br>
+					</div>
+					<a href="http://s.epweike.com/thread-22882-1-1.html" target="_blank"><img src="tpl/default/theme/simple/img/style/bottond.png" alt="" /></a>&nbsp;&nbsp;&nbsp;&nbsp;详情咨询客服QQ：4006999467 </div>
+				<div class="black_overlay" id="body_id"></div>
+				<script type="text/javascript">
+function setCookie(name, value, expireday) {
+var exp = new Date();
+exp.setTime(exp.getTime() + expireday*24*60*60*1000); //设置cookie的期限
+document.cookie = name+"="+escape(value)+"; expires"+"="+exp.toGMTString();//创建cookie
+}
+if (document.cookie.indexOf("certeradvers=1")>-1) {
+$(".certeradvers,.black_overlay").hide();
+} else{
+$(".certeradvers,.black_overlay").show();
+} 
+setCookie("certeradvers", "1", "1");
+$(".closeadvers").bind("click",function(){
+$(".certeradvers,.black_overlay").hide();
+})
+</script> 
+				<!--威客会员中心增加弹出窗口广告  结束-->
+				<div class="show_panel" style="_width:780px;">
+					<div class="">
+						<div class=""> 
+							<!--main content-->
+							<div class=" clearfix box default"> 
+								<!--header内容头部 start-->
+								<header class="clearfix box_header" style="_width:780px;">
+								<h2 class="box_title">账号提现/退款</h2>
+								<div class="clear"> </div>
+								<!--header内容头部 end--> 
+								<div class="pad20">
+									<nav class="box_nav">
+										<ul>
+											<li class="selectedLava" onclick="swaptab('withdraw','selectedLava','',3,1)" id="tab_withdraw_1"><a href="javascript:;">提现到认证银行卡</a></li>
+											<li onclick="swaptab('withdraw','selectedLava','',3,2)" id="tab_withdraw_2" class=""><a href="javascript:;">退款到原有支付账户</a></li>
+										</ul>
+									</nav>
+									<!--detail内容 start-->
+									<article id="div_withdraw_1" class="box_detail">
+										<div class="mb_10 clearfix">
+											<div class="prefix_1 suffix_1 ">
+												<ul class="clearfix">
+													<li class="fl_l mr_10"> <img class="pic_middle" uid="648600" src="http://www.epweike.net/data/avatar/system/8_middle.jpg" original-title="" style="z-index: 1;"> </li>
+													<li class="fl_l mr_10">
+														<p>用户名：hua001</p>
+														<p>账户可用余额：<strong class="cf60 font16">787194.276 </strong>元</p>
+													</li>
+													<li class="clear"></li>
+												</ul>
+											</div>
+											<div class="fl_r"><a href="">提现记录</a>&nbsp;|&nbsp;<a href="">帮助说明</a></div>
+										</div>
+										<div class="pad10">
+											<form action="http://www.epweike.net/index.php?do=user&view=finance&op=withdraw&ver=1&step=step1&choose_cash=1" method="post">
+												<div class="rowElem clearfix">
+													<label class="fl_l">提现金额：</label>
+													<input type="text" class="txt_input" size="25" id="withdraw_cash" name="withdraw_cash" limit="required:true;type:int;between:10-20000" msg="金额输入错误,10-20000元!" msgArea="span_withdraw_cash" title="（10-20000元）" onkeyup="clearstr(this);" />
+														元&nbsp; <span id="span_withdraw_cash"></span>
+
+
+												</div>
+												<div class="rowElem clearfix">
+													<label class="fl_l">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+													<div class="fl_l c999">
+													<div><strong>一品威客网银行卡提现手续费扣取标准：</strong></div>
+													<div> A.	300元以下（含300元） 1.5 元/笔</div>
+													<div> B.	300—500元（含500元） 3 元/笔</div>
+													<div> C.	500—5000元（含5000元） 5 元/笔</div>
+													<div> D.	5000元以上 10 元/笔</div>
+													<div class="c06c"> 注：单笔最低额度为10元，最高额度为20000元 </div>
+													</div>
+												</div>
+												<div class="rowElem clearfix">
+													<label class="fl_l">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+													<button type="button" value="确认提现" onclick="next_step();"> 下一步 </button>
+												</div>
+											</form>
+										</div>
+										<!--messages消息 end-->
+										<div style="display:none;">
+											本着服务会员的原则，一品威客网对直接雇佣任务产生的提现手续费通告如下：</br>
+											1、支付宝提现。因为网站未抽佣，雇主往网站支付宝托管赏金产生的每笔费用为0.8%，威客提现产生的每笔费用为0.5%，以上手续费是支付宝收取，由威客承担。</br>
+											2、直接雇佣任务雇主退还赏金，从支付宝走帐的，参照上面点数执行。</br>
+											3、直接雇佣任务，从银行走帐的，手续费为：1%（最低1元，最高50元），该  笔费用是银行收取的。由赚取赏金的威客承担。</br>
+											4、招标任务发布后，雇主找到雇佣威客的，视同直接雇佣任务。
+										</div>
+									</article>
+									<article id="div_withdraw_2" class="box_detail hidden">
+										<div class="mb_10 clearfix">
+											<div class="prefix_1 suffix_1 ">
+												<ul class="clearfix">
+													<li class="fl_l mr_10"> <img class="pic_middle" uid="648600" src="http://www.epweike.net/data/avatar/system/8_middle.jpg" original-title="" style="z-index: 1;"> </li>
+													<li class="fl_l mr_10">
+														<p>用户名：hua001</p>
+														<p>账户可用余额：<strong class="cf60 font16">787194.276 </strong>元</p>
+													</li>
+													<li class="clear"></li>
+												</ul>
+											</div>
+											<div class="fl_r"><a href="">帮助说明</a></div>
+										</div>
+										<!--messages消息 end-->
+										<div class="mb_10">
+										<form id="frm" method="post" action="#userCenter">
+											<input type="hidden" value="" name="page" original-title="">
+											<select>
+												<option selected="selected" value="">所有订单</option>
+												<option value="2014">2014年 </option>
+												<option value="2013">2013年 </option>
+												<option value="2012">2012年 </option>
+												<option value="2011">2011年 </option>
+											</select>
+										</form>
+										</div>
+										<div class="data_list">
+											<table cellpadding="0" cellspacing="0" class="data_table">
+												<thead>
+													<tr>
+														<th scope="col"> 订单编号 </th>
+														<th scope="col"> 订单名称 </th>
+														<th scope="col"> 订单金额 </th>
+														<th scope="col"> 订单时间</th>
+														<th scope="col"> 操作</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>545654 </td>
+														<td> 一品版权卫士一品版权卫士 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <a href="">申请退款</a> </td>
+													</tr>
+													<tr>
+														<td>545654 </td>
+														<td> 充值 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <a href="">申请退款</a> </td>
+													</tr>
+													<tr>
+														<td>545654 </td>
+														<td> 一品版权卫士一品版权卫士 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <a href="">申请退款</a> </td>
+													</tr>
+													<tr>
+														<td>545654 </td>
+														<td> 充值 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <span class="c999">无法退款</span> </td>
+													</tr>
+													<tr>
+														<td>545654 </td>
+														<td> 一品版权卫士 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <span class="c999">无法退款</span> </td>
+													</tr>
+													<tr>
+														<td>545654 </td>
+														<td> 充值 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <span class="c999">无法退款</span> </td>
+													</tr>
+													<tr>
+														<td>545654 </td>
+														<td> 一品版权卫士 </td>
+														<td>30元</td>
+														<td> 2014-06-07 </td>
+														<td> <span class="c999">无法退款</span> </td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="mt_20"></div>
+										<div class="page clearfix">
+                                            <p>
+                                                <span> 1 / 2页</span> <a class="selected">1</a>
+<a href="http://www.epweike.net/index.php?do=user&amp;view=witkey&amp;view=witkey&amp;op=toolbox&amp;show=list&amp;wh['item_code']=&amp;wh['use_type']=spend&amp;ord=&amp;page=&amp;p['page_size']=&amp;page=2#userCenter">2</a>
+<a href="http://www.epweike.net/index.php?do=user&amp;view=witkey&amp;view=witkey&amp;op=toolbox&amp;show=list&amp;wh['item_code']=&amp;wh['use_type']=spend&amp;ord=&amp;page=&amp;p['page_size']=&amp;page=2#userCenter">下一页&gt;&gt;</a>
+<input type="text" size="1" name="page" original-title="" class="txt_input"><button href="http://www.epweike.net/index.php?do=user&amp;view=witkey&amp;view=witkey&amp;op=toolbox&amp;show=list&amp;wh['item_code']=&amp;wh['use_type']=spend&amp;ord=&amp;page=&amp;p['page_size']=" onclick="gotopage(this,$(this).attr('href'),2,'','#userCenter','');return false;" name="btn_gotopage">跳转</button>                                            </p>
+                                        </div>
+									</article>
+									<!--detail内容 end-->
+								</div> 
+							</div>
+							<!--main content end -->
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--main end--> 
+		</div>
+		<!--contain end--> 
+	</div>
+	<script type="text/javascript">
+            	In('form');
+            	 $(document).ready(function(){
+            		$("#submitForm").click(function(){
+            			$("#withdraw").submit();
+                 	$("#submitForm").text('请耐心等待～');
+             	    $("#submitForm").removeClass("submit");
+             	    $("#submitForm").attr("disabled",true);
+                 	});
+            	 });
+                function next_step(){
+                    var withdraw_cash = parseFloat($("#withdraw_cash").val());
+                    var withdraw_min = parseFloat(10);
+                    var withdraw_max = parseFloat(20000);
+                    var balance = parseFloat(787554.276);
+                                        	var currency = "￥"
+                                        
+if(!withdraw_cash){
+  showDialog("请输入提现金额", "alert", "消息提示");
+                        return false;
+}
+
+                    if (balance < withdraw_cash) {
+                        showDialog("提现申请金额不能为空或大于您的当前余额！", "alert", "消息提示");
+                        return false;
+                    }
+                    else {						
+if (withdraw_max < withdraw_cash) {
+                            showDialog("单笔提现最大金额不得大于"+ currency + withdraw_max , "alert", "消息提示");
+                            return false;
+                        }
+                        else {
+if (withdraw_min > withdraw_cash) {
+                                showDialog("单笔提现金额不得小于" + currency + withdraw_min, "alert", "消息提示");
+                                return false;
+                            } else {
+                                location.href = "http://www.epweike.net/index.php?do=user&view=finance&op=withdraw&ver=1&step=step1&choose_cash=1&withdraw_cash=" + withdraw_cash;
+                            }
+}
+}  
+                }
+
+                function user_withdraw(){
+                	 var pay_type = encodeURIComponent($(":radio[name='offline']:checked").val());
+                	 if(pay_type=='corp_site'){
+                		var paymode = 'corp_site';
+                		pay_type='PEPAY';
+                	 }else if(pay_type=='undefined'){
+                    		 showDialog("请选择提现帐户类型！",  "消息提示");
+                    		 return false;
+                	 }else{
+                		 var paymode = 'offline';
+ var bank_id = $('#offline').val();
+                	 }
+                     location.href = "http://www.epweike.net/index.php?do=user&view=finance&op=withdraw&ver=1&step=step3&paymode=" + paymode + "&withdraw_cash=&pay_type=" + pay_type + "&bank_id="+ bank_id +"#userCenter";
+                }
+                function set_withdraw(){
+                	e=checkForm(document.getElementById('withdraw'))
+                	if(e){
+            			$.post("http://www.epweike.net/index.php",
+            				{
+            				"do":"user",
+            				"view":"finance",
+            				"op":"withdraw",
+            				"ver":1,
+            				"step":"step4",
+            				"paymode":"corp_site",
+            				"brand":"tw",
+            				"sbt_withdraw":1,
+            				"formhash":$("#formhash").val(),
+            				"withdraw_cash":'',
+            				"charge_type":$("#charge_type").val(),
+            				"pay_type":$('#ep_username').val(),
+            				"ep_username":$("#ep_username").val()
+            				},
+            				function(json){
+            				  if(json.status==1){
+            					/*showDialog(json.msg,'confirm',"",'location.href="http://www.epweike.net/index.php?do=user"');
+            					$("#no").val(json.data['order_id']);
+            					$("#withdraw").attr("action","https://www.songogo.com/ecpay/seller_china.php?id=0001");
+            					$("#withdraw").attr('target','_blank');
+            					$("#withdraw").submit();*/
+            					showDialog(json.msg,'confirm',"",'window.open("http://epweike.songogo.com/","_blank");');
+            				  }
+            				},'json');
+                }
+                }
+            </script> 
+	<!--jQuery调用--> 
+	<script type="text/javascript">
+$(function(){
+var Is = location.href.search('&op=');
+if(Is>-1){
+$("html,body").animate({scrollTop:$(".Anchor").offset().top});
+}
+})
+function check(obj){
+return checkForm(document.getElementById(obj));
+}
+In.add('jscolor',{path:"resource/js/others/jscolor.js",type:'js'});
+In('calendar'); 
+
+$(function(){
+$(".togg_u").focus(function(){
+        	 this.value = '';
+        }).blur(function(){
+                this.value == '' ? this.value = $(this).attr(this.title ? 'title' : 'original-title') : '';
+        })
+}) 
+
+</script> 
+	<!--页脚 satrt-->
+	<div id='bubble'></div>
+	<div class="bofrend mt_10">
+		<footer class="container_24 clearfix">
+			<div class="footer clearfix"> 
+				<!--footer链接 start--> 
+				<a href="http://www.epweike.net/index.php?do=about&view=index">关于我们</a> <a href="http://www.epweike.net/index.php?do=article">新闻中心</a> <a href="http://www.epweike.net/index.php?do=about&view=pay">支付方式</a> <a href="http://www.epweike.net/index.php?do=link">友情链接</a> <a href="http://www.epweike.net/index.php?do=help&view=service">客服中心</a> <a href="http://www.epweike.net/index.php?do=map" class="bor_n"> 网站地图</a> 
+				<!--footer链接 end--> 
+			</div>
+			<dl class="clearfix pt_10">
+				<dt class="t_c">Copyright © 2010-2014 epweike.com 版权所有 备案：闽ICP备12001463号</dt>
+				<dd class="t_c"> 服务热线：4006-999-467&nbsp;&nbsp;0592-6301977 地址：中国厦门软件园二期望海路10号二栋3层 <script src="http://s11.cnzz.com/stat.php?id=5301077&web_id=5301077" language="JavaScript"></script> 
+				</dd>
+			</dl>
+			<br />
+			<br />
+		</footer>
+	</div>
+	<!--页脚 end--> 
+	
+	<!--[if IE 6]></div><![endif]--> 
+	<!--[if IE 7]></div><![endif]--> 
+	<!--[if IE 8]></div><![endif]--> 
+	
+</div>
+<div id="rightToolbar">
+	<div class="tooltop"> <img src="http://img11.epweike.net/resource/img/style/tophead.png"> </div>
+	<div class="toolposit">
+		<div class="toolmin"> <a class="tool_ico qqtool" href="http://wpa.qq.com/msgrd?v=3&amp;uin=4006999467&amp;site=qq&amp;menu=yes"></a> </div>
+		<div class="toolmin"> <a class="tool_ico phonetool" href="javascript:;"></a>
+			<div class="toolcont" style="width:230px;"> <span class="toolarr"></span>
+				<div class="font20 c666 yh"><strong class="c333">4006-999-467</strong></div>
+				<div class="c999">24小时，节假日不休，免长途话费</div>
+				<div class="c999">（您还可以拨打：0592-6301977）</div>
+				<div class="c666 mb_5">若您需要帮助，您也可以留下联系方式</div>
+				<div class="mb_10">
+					<input size="30" value="请留下您的手机号码/QQ号码" id='nums' name='nums' class="tx c999" type="text" maxlength="50" />
+				</div>
+				<button class="submit" type="button" id="quick_secretary_btn">立即提交</button>
+			</div>
+		</div>
+		<div class="toolmin"> <a class="tool_ico liuyantool" href="http://www.epweike.net/review.html"></a> 
+			<!--<div class="toolcont" style="width:300px;">
+<span class="toolarr"></span>
+<div class="mb_5"><strong>给我们留言</strong></div>
+<div class="tolform mb_5">
+<div class="mb_10"><textarea id="quick_review_content" name="txt_comment_content" rows="3" cols="50"></textarea></div>
+<button class="submit" type="button" id="quick_review_btn">立即提交</button>
+</div>
+<div class="c666 lineh_20">
+<div class="mt_5">如果我们的服务您不满意，您可以给我们提出意见和建议，或者给一品威客客服主管发电子邮件 <a href="mailto:1654422340@qq.com">1654422340@qq.com</a>，每件必回哦！</div>
+</div>
+</div>--> 
+		</div>
+		<div class="toolmin"> <a class="tool_ico qqtoolvip" href="http://www.epweike.net/vip/"></a> 
+			<!--<div class="toolcont" style="width:100px;">
+<span class="toolarr"></span>
+<strong>VIP售前QQ：</strong><br>
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2022131634&amp;site=qq&amp;menu=yes" target="_blank"><img border="0" src="http://wpa.qq.com/pa?p=2:2022131634:47"></a><br>
+<strong>VIP售后QQ：</strong><br>
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2214647619&amp;site=qq&amp;menu=yes" target="_blank"><img border="0" src="http://wpa.qq.com/pa?p=2:2214647619:47"></a>
+</div>--> 
+		</div>
+		<div id="goTopBtn" class="toolmin backtop"> <a class="tool_ico backtoptool" title="返回顶部" href="javascript:;"></a> </div>
+	</div>
+</div>
+<script type="text/javascript">goTopEx();</script>
+</div>
+<script type="text/javascript">
+var xyq = "2364c7ff3eb887b5ce510ff9bce12142ad1a6db1";
+//js异步加载
+In('header_top','custom','tipsy','autoIMG','slides');;
+if(INDEX=='index'||INDEX==''||INDEX=='article'||INDEX=='zone'||INDEX=='shop'||INDEX=='gonglue')
+{	
+In('lavalamp_index');
+}else if(INDEX=='user'){
+}else{
+In('lavalamp');
+}
+</script>
+<div style="background-color:red;color:#fff;width:400px;text-align:center;"> querys: 12 &nbsp;
+	times:1.001898</div>
+</body>
+</html>
